@@ -420,6 +420,41 @@ footer .sep{margin:0 .5rem;color:var(--app-border)}
 }
 @media(max-width:660px){.plans-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:400px){.plans-grid{grid-template-columns:1fr}}
+
+/* ── MOBILE IMPROVEMENTS ── */
+@media(max-width:600px){
+  /* Nav */
+  nav{padding:0 1rem}
+  .btn-nav{padding:.4rem .75rem;font-size:.76rem}
+
+  /* Hero */
+  .hero{padding:3rem 1rem 2rem}
+  .hero-cta{flex-direction:column;align-items:stretch}
+  .btn-hero-primary,.btn-hero-secondary{text-align:center;justify-content:center;width:100%}
+
+  /* Trust strip — horizontal scroll on phone */
+  .trust-strip{
+    flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;
+    justify-content:flex-start;padding:1rem 1.25rem;gap:1.25rem;
+    scrollbar-width:none
+  }
+  .trust-strip::-webkit-scrollbar{display:none}
+  .trust-item{flex-shrink:0}
+
+  /* Plans section */
+  .plans-section{padding:2rem 1rem 2rem}
+  .billing-toggle{font-size:.82rem}
+
+  /* FAQ */
+  .faq-q{font-size:.85rem;padding:.9rem 1rem}
+  .faq-a{padding:0 1rem .9rem;font-size:.82rem}
+}
+
+@media(max-width:400px){
+  nav{height:56px}
+  .hero h1{font-size:1.55rem}
+  .hero p{font-size:.88rem}
+}
 </style>
 </head>
 <body>
