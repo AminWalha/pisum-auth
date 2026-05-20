@@ -1632,14 +1632,25 @@ async function loadProfile() {
     .select('*')
     .eq('user_id', session.user.id)
     .maybeSingle();
+  const meta = session.user.user_metadata || {};
+  const oauthName   = (meta.full_name || meta.name   || '').trim();
+  const oauthAvatar = (meta.avatar_url || meta.picture || '').trim();
+
   if (data) {
     currentProfile = data;
-    updateProfileDisplay(data);
+    // Persist OAuth avatar for existing profiles that have no photo yet
+    if (!data.avatar_url && oauthAvatar) {
+      const { data: updated } = await sb
+        .from('profiles')
+        .update({ avatar_url: oauthAvatar })
+        .eq('user_id', session.user.id)
+        .select()
+        .maybeSingle();
+      if (updated) currentProfile = updated;
+    }
+    updateProfileDisplay(currentProfile);
   } else {
-    // First OAuth login — auto-populate from provider metadata (Google, LinkedIn…)
-    const meta = session.user.user_metadata || {};
-    const oauthName   = (meta.full_name || meta.name  || '').trim();
-    const oauthAvatar = (meta.avatar_url || meta.picture || '').trim();
+    // No profile yet — auto-populate from OAuth metadata
     if (oauthName || oauthAvatar) {
       const profileData = {
         user_id:    session.user.id,
@@ -1652,8 +1663,8 @@ async function loadProfile() {
         .select()
         .maybeSingle();
       currentProfile = created || profileData;
-      updateProfileDisplay(currentProfile);
     }
+    updateProfileDisplay(currentProfile || {});
   }
 }
 
