@@ -1118,7 +1118,7 @@ function sbNav(el, sectionId) {
 // ── Init ──────────────────────────────────────────────────────────────────
 async function init() {
   const { data } = await sb.auth.getSession();
-  if (!data.session) { window.location.href = 'auth.html'; return; }
+  if (!data.session) { window.location.href = 'https://auth.pisum.app/'; return; }
   session = data.session;
 
   const user  = session.user;
@@ -1604,7 +1604,7 @@ async function handleSubscribe() {
 
 async function signOut() {
   await sb.auth.signOut();
-  window.location.href = 'auth.html';
+  window.location.href = 'https://auth.pisum.app/';
 }
 
 async function loadProfile() {
@@ -1980,7 +1980,7 @@ async function confirmDeleteAccount() {
     });
     if (!r.ok) throw new Error((await r.json()).detail || 'Error');
     await sb.auth.signOut();
-    window.location.href = 'auth.html';
+    window.location.href = 'https://auth.pisum.app/';
   } catch(err) {
     const m = document.getElementById('delete-modal-msg');
     m.textContent = 'Error: ' + err.message;
