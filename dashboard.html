@@ -1603,6 +1603,7 @@ async function handleSubscribe() {
 }
 
 async function signOut() {
+  document.cookie = 'pisum_user=; domain=.pisum.app; path=/; max-age=0; SameSite=Lax; Secure';
   await sb.auth.signOut();
   window.location.href = 'https://auth.pisum.app/';
 }
@@ -1655,6 +1656,13 @@ function updateProfileDisplay(profile) {
   if (profile.avatar_url) {
     setAvatarEl(document.getElementById('profile-avatar'), profile.avatar_url);
     setAvatarEl(document.getElementById('nav-avatar'),     profile.avatar_url);
+  }
+  if (session) {
+    const u = session.user;
+    const name = profile.full_name || u.user_metadata?.full_name || u.email.split('@')[0];
+    const avatar = profile.avatar_url || u.user_metadata?.avatar_url || u.user_metadata?.picture || '';
+    const val = encodeURIComponent(JSON.stringify({ name, email: u.email, avatar }));
+    document.cookie = `pisum_user=${val}; domain=.pisum.app; path=/; max-age=604800; SameSite=Lax; Secure`;
   }
   const extra = document.getElementById('profile-extra');
   const parts = [];
