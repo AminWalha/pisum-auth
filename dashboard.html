@@ -1139,7 +1139,7 @@ async function init() {
   session = data.session;
 
   const user  = session.user;
-  const name  = user.user_metadata?.full_name || '';
+  const name  = user.user_metadata?.full_name || user.user_metadata?.name || '';
   const email = user.email || '';
   const initials = name
     ? name.split(' ').map(w => w[0]).join('').slice(0,2).toUpperCase()
@@ -1704,7 +1704,7 @@ function updateProfileDisplay(profile) {
 function openProfileModal() {
   const p = currentProfile || {};
   const meta = session?.user?.user_metadata || {};
-  document.getElementById('f-name').value      = p.full_name    || meta.full_name || '';
+  document.getElementById('f-name').value      = p.full_name    || meta.full_name || meta.name || '';
   document.getElementById('f-phone').value     = p.phone        || '';
   document.getElementById('f-specialty').value = p.specialty    || '';
   document.getElementById('f-org').value       = p.organization || '';
@@ -1715,7 +1715,7 @@ function openProfileModal() {
   if (p.avatar_url) {
     setAvatarEl(modalAv, p.avatar_url);
   } else {
-    const name = p.full_name || meta.full_name || '';
+    const name = p.full_name || meta.full_name || meta.name || '';
     const email = session?.user?.email || '';
     const initials = name
       ? name.split(' ').map(w => w[0]).join('').slice(0,2).toUpperCase()
