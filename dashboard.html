@@ -1670,9 +1670,11 @@ function setAvatarEl(el, url) {
 }
 
 function updateProfileDisplay(profile) {
-  if (profile.avatar_url) {
-    setAvatarEl(document.getElementById('profile-avatar'), profile.avatar_url);
-    setAvatarEl(document.getElementById('nav-avatar'),     profile.avatar_url);
+  const _u = session?.user;
+  const avatarSrc = profile.avatar_url || _u?.user_metadata?.avatar_url || _u?.user_metadata?.picture || '';
+  if (avatarSrc) {
+    setAvatarEl(document.getElementById('profile-avatar'), avatarSrc);
+    setAvatarEl(document.getElementById('nav-avatar'),     avatarSrc);
   }
   if (session) {
     const u = session.user;
