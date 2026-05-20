@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <!-- Google tag (gtag.js) -->
@@ -435,7 +435,7 @@ footer .sep{margin:0 .5rem;color:var(--app-border)}
       <div class="nav-avatar" id="nav-avatar">?</div>
       <span class="nav-name" id="nav-name"></span>
     </div>
-    <a class="btn-nav" id="nav-login-btn" href="./" data-i18n="pricing.nav.signIn">Sign in</a>
+    <a class="btn-nav" id="nav-login-btn" href="https://auth.pisum.app/" data-i18n="pricing.nav.signIn">Sign in</a>
     <a class="btn-nav primary" id="nav-dashboard-btn" href="dashboard.html" style="display:none" data-i18n="pricing.nav.mySubscription">My subscription</a>
   </div>
 </nav>
@@ -821,9 +821,9 @@ footer .sep{margin:0 .5rem;color:var(--app-border)}
     <span class="sep">·</span>
     <a href="mailto:support@pisum.app" data-i18n="pricing.footer.support">Support</a>
     <span class="sep">·</span>
-    <a href="../../terms.html" data-i18n="pricing.footer.terms">Terms of Service</a>
+    <a href="https://pisum.app/terms.html" data-i18n="pricing.footer.terms">Terms of Service</a>
     <span class="sep">·</span>
-    <a href="../../rgpd.html" data-i18n="pricing.footer.privacy">Privacy Policy</a>
+    <a href="https://pisum.app/rgpd.html" data-i18n="pricing.footer.privacy">Privacy Policy</a>
   </div>
 </footer>
 
@@ -942,6 +942,20 @@ async function subscribe(plan) {
 document.querySelectorAll('.plan-cta').forEach(b => {
   if (b.tagName === 'BUTTON') b.dataset.label = b.textContent;
 });
+
+// Auto-trigger checkout if redirected from pisum.app with ?plan=&interval=
+(async function autoSubscribe() {
+  const params = new URLSearchParams(window.location.search);
+  const plan = params.get('plan');
+  const interval = params.get('interval');
+  if (!plan) return;
+  if (interval === 'annual') {
+    document.getElementById('togB').checked = true;
+    setBilling(true);
+  }
+  await init();
+  subscribe(plan);
+})();
 
 function showError(msg) {
   const el = document.getElementById('err-toast');
