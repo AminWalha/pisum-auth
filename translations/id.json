@@ -238,27 +238,27 @@
     "pageTitle": "PISUM — Harga untuk Profesional Medis",
     "nav": {
       "signIn": "Masuk",
-      "mySubscription": "Langganan saya"
+      "mySubscription": "Langganan Saya"
     },
     "hero": {
       "eyebrow": "Perangkat Lunak Radiologi · Berbasis AI · Sesuai GDPR",
-      "title": "Alat profesional,<br/><span>dibangun untuk radiolog</span>",
-      "subtitle": "Dari radiolog independen hingga klinik multi-lokasi — PISUM beradaptasi dengan praktik Anda dengan template terstruktur, dikte AI, dan kontrol data lokal.",
-      "ctaPrimary": "Mulai gratis — tidak perlu kartu",
+      "title": "Alat profesional,<br/><span>dibuat untuk radiolog</span>",
+      "subtitle": "Dari radiolog independen hingga klinik multi-lokasi — PISUM beradaptasi dengan praktik Anda dengan templat terstruktur, dikte AI, dan kontrol data lokal.",
+      "ctaPrimary": "Mulai gratis — tanpa kartu",
       "ctaSecondary": "Bandingkan paket"
     },
     "trust": {
       "gdpr": "Sesuai GDPR",
-      "local": "Data tetap lokal — tidak ada unggahan cloud",
+      "local": "Laporan pasien tetap di mesin Anda — tidak pernah diunggah",
       "builtFor": "Dibuat untuk radiolog",
-      "clinics": "Digunakan di klinik di seluruh Eropa",
+      "clinics": "Dirancang untuk radiolog di seluruh Eropa",
       "fast": "Laporan selesai dalam waktu kurang dari 60 detik"
     },
     "billing": {
       "monthly": "Bulanan",
       "annual": "Tahunan",
       "save20": "−20%",
-      "guarantee": "Tidak ada unggahan data pasien ke cloud ·  Sesuai GDPR  ·  Prioritas Lokal"
+      "guarantee": "Tidak ada unggahan data pasien ke cloud  ·  Sesuai GDPR  ·  Lokal-pertama"
     },
     "plans": {
       "free": {
@@ -268,29 +268,30 @@
         "period": "/ bulan",
         "microcopy": "Tidak perlu kartu kredit",
         "cta": "Mulai",
-        "f1": "10 template",
+        "f1": "10 templat",
         "f2": "2 bahasa",
         "f3": "Ekspor PDF",
         "f4": "Ekspor Word",
-        "f5": "Dikte AI (30 mnt/bln)",
-        "f6": "Penyempurnaan AI (10 penggunaan/bln)",
+        "f5": "Dikte AI (30 menit ≈ 10–20 CR/bulan)",
+        "f6": "Penyempurna AI (10 koreksi/bulan)",
         "f7": "Daftar Kerja Terbatas",
         "f8": "50 laporan / bulan"
       },
       "starter": {
         "tag": "Starter",
         "name": "Pisum Starter",
-        "subtitle": "Radiolog tunggal",
+        "subtitle": "Langkah pertama Anda untuk laporan lebih cepat",
         "period": "/ bulan",
         "microcopy": "Ditagih bulanan",
-        "trial": "Uji coba gratis 14 hari · Tidak perlu kartu",
+        "roi": "Hemat 30 menit/hari sejak hari pertama",
+        "trial": "Uji coba gratis 14 hari · Tanpa kartu diperlukan",
         "cta": "Coba Starter gratis — 14 hari",
-        "f1": "20 template",
+        "f1": "20 templat",
         "f2": "23 bahasa",
         "f3": "Ekspor PDF + Word",
         "f4": "Ekspor HTML",
-        "f5": "Dikte AI (500 mnt/bln)",
-        "f6": "Penyempurnaan AI (50/bln)",
+        "f5": "Dikte AI (500 menit ≈ 150–300 CR/bulan)",
+        "f6": "Penyempurna AI (50 koreksi/bulan)",
         "f7": "Daftar Kerja Dasar",
         "f8": "Laporan tanpa batas"
       },
@@ -298,35 +299,36 @@
         "ribbon": "Paling Populer",
         "tag": "Pro ⭐",
         "name": "Pisum Pro",
-        "subtitle": "Praktisi lanjutan, lengkap",
+        "subtitle": "Alur kerja lengkap untuk praktik sehari-hari",
         "period": "/ bulan",
         "microcopy": "Ditagih bulanan",
-        "trial": "Uji coba gratis 14 hari · Tidak perlu kartu",
+        "roi": "Terbayar dalam < 3 hari kerja",
+        "trial": "Uji coba gratis 14 hari · Tanpa kartu diperlukan",
         "cta": "Coba Pro gratis — 14 hari",
-        "f1": "112+ template",
+        "f1": "112+ templat",
         "f2": "23 bahasa",
         "f3": "Ekspor PDF + Word + HTML",
-        "f4": "Dikte AI (2.000 mnt/bln)",
-        "f5": "Penyempurnaan AI (200/bln)",
-        "f6": "Terjemahan Laporan (100/bln)",
+        "f4": "Dikte AI (2.000 menit ≈ 600–1.200 CR/bulan)",
+        "f5": "Penyempurna AI (200 koreksi/bulan)",
+        "f6": "Terjemahan Laporan (100/bulan)",
         "f7": "Daftar Kerja Lengkap",
         "f8": "Statistik Dasar",
         "f9": "Dukungan Prioritas"
       },
       "expert": {
         "ribbon": "Nilai Terbaik",
-        "tag": "Expert 🔥",
-        "name": "Pisum Expert",
-        "subtitle": "Tanpa batas, kekuatan penuh",
+        "tag": "Pakar 🔥",
+        "name": "Pisum Pakar",
+        "subtitle": "Multi-stasiun kerja · AI tanpa batas",
         "period": "/ bulan",
         "microcopy": "Ditagih bulanan",
-        "trial": "Uji coba gratis 14 hari · Tidak perlu kartu",
-        "cta": "Coba Expert gratis — 14 hari",
-        "f1": "112+ template kustom",
+        "trial": "Uji coba gratis 14 hari · Tanpa kartu diperlukan",
+        "cta": "Coba Pakar gratis — 14 hari",
+        "f1": "112+ templat kustom",
         "f2": "23 bahasa",
         "f3": "Ekspor PDF + Word + HTML",
         "f4": "Dikte AI (Tanpa Batas)",
-        "f5": "Penyempurnaan AI (Tanpa Batas)",
+        "f5": "Penyempurna AI (Tanpa Batas)",
         "f6": "Terjemahan Laporan (Tanpa Batas)",
         "f7": "Daftar Kerja Lanjutan",
         "f8": "Statistik Lengkap",
@@ -339,15 +341,15 @@
         "subtitle": "Multi-lokasi · Manajemen tim",
         "period": "/ bulan",
         "microcopy": "5 pengguna termasuk · +€69/pengguna tambahan",
-        "cta": "Hubungi kami",
+        "cta": "Mulai",
         "extraUsers": "Perlu lebih dari 5 pengguna? Tambahkan kursi tambahan dari dasbor Anda setelah berlangganan.",
         "usersCount": "5 pengguna",
-        "f1": "Template kustom",
+        "f1": "Templat kustom",
         "f2": "5 pengguna termasuk (+€69/tambahan)",
         "f3": "23 bahasa",
         "f4": "Ekspor PDF + Word + HTML",
         "f5": "Dikte AI (Tanpa Batas)",
-        "f6": "Penyempurnaan AI (Tanpa Batas)",
+        "f6": "Penyempurna AI (Tanpa Batas)",
         "f7": "Terjemahan Laporan (Tanpa Batas)",
         "f8": "Daftar Kerja Multi-lokasi",
         "f9": "Statistik lanjutan + orientasi",
@@ -356,43 +358,43 @@
     },
     "guarantee": "<span style=\"color:var(--app-success);font-weight:700\">✓</span> Garansi uang kembali 30 hari untuk semua paket berbayar  · \n    <span style=\"color:var(--app-success);font-weight:700\">✓</span> Batalkan kapan saja, tanpa ikatan",
     "value": {
-      "eyebrow": "Mengapa para profesional memilih PISUM",
+      "eyebrow": "Mengapa profesional memilih PISUM",
       "heading": "Alat yang menghargai alur kerja Anda",
       "card1": {
-        "title": "Privasi lokal utama",
-        "desc": "Laporan pasien tetap berada di mesin Anda. Tidak ada data klinis yang pernah meninggalkan komputer Anda — tidak ada unggahan cloud, kepatuhan GDPR penuh."
+        "title": "Privasi lokal-pertama",
+        "desc": "Laporan pasien tetap di mesin Anda. Tidak ada data klinis yang pernah meninggalkan komputer Anda — tidak ada unggahan cloud, kepatuhan GDPR penuh."
       },
       "card2": {
-        "title": "112+ template radiologi",
+        "title": "112+ templat radiologi",
         "desc": "Laporan terstruktur untuk setiap modalitas — MRI, CT, ekografi, dan lainnya. Dalam 23 bahasa, siap digunakan segera."
       },
       "card3": {
-        "title": "Dikte &amp; Penyempurnaan AI",
-        "desc": "Dikte laporan tanpa tangan dan tingkatkan kata-kata dengan AI — dirancang khusus untuk terminologi dan frasa radiologi."
+        "title": "Dikte &amp; Penyempurna AI",
+        "desc": "Dikte laporan bebas genggam dan perbaiki kata-kata dengan AI — dirancang khusus untuk terminologi dan frasa radiologi."
       },
       "card4": {
         "title": "Sinkronisasi Jaringan LAN",
-        "desc": "Bagikan daftar kerja yang sama di semua workstation di klinik Anda — tanpa cloud, sinkronisasi instan melalui jaringan lokal Anda."
+        "desc": "Bagikan daftar kerja yang sama di semua stasiun kerja di klinik Anda — tanpa cloud, sinkronisasi instan melalui jaringan lokal Anda."
       }
     },
     "compare": {
       "title": "Perbandingan terperinci",
-      "subtitle": "Lihat dengan tepat apa yang disertakan di setiap tingkatan — pilih yang sesuai dengan praktik Anda."
+      "subtitle": "Lihat persis apa saja yang termasuk di setiap tingkatan — pilih yang sesuai dengan praktik Anda."
     },
     "lansync": {
-      "title": "Cara kerja Sinkronisasi Jaringan LAN",
-      "subtitle": "Bagikan data pasien di seluruh workstation di jaringan lokal Anda — tanpa cloud, tanpa latensi, tanpa risiko GDPR.",
+      "title": "Cara Kerja Sinkronisasi Jaringan LAN",
+      "subtitle": "Bagikan data pasien antar stasiun kerja di jaringan lokal Anda — tanpa cloud, tanpa latensi, tanpa risiko GDPR.",
       "step1": {
         "title": "1. Siapkan folder bersama",
-        "desc": "Arahkan PISUM ke folder jaringan bersama (NAS, berbagi SMB, atau drive yang dipetakan). Semua workstation di jaringan yang sama mengakses database yang sama."
+        "desc": "Arahkan PISUM ke folder jaringan bersama (NAS, berbagi SMB, atau drive yang dipetakan). Semua stasiun kerja di jaringan yang sama mengakses database yang sama."
       },
       "step2": {
         "title": "2. Satu kata sandi bersama",
-        "desc": "Basis data dienkripsi AES-256. Tetapkan satu kata sandi di workstation pertama — semua PC lain memasukkan kata sandi yang sama untuk terhubung."
+        "desc": "Database dienkripsi AES-256. Atur satu kata sandi di stasiun kerja pertama — semua PC lain memasukkan kata sandi yang sama untuk terhubung."
       },
       "step3": {
-        "title": "3. Sinkronisasi instan di seluruh PC",
-        "desc": "Setiap workstation membaca dan menulis langsung ke database bersama. Perubahan muncul seketika di semua komputer yang terhubung."
+        "title": "3. Sinkronisasi instan antar PC",
+        "desc": "Setiap stasiun kerja membaca dan menulis langsung ke database bersama. Perubahan muncul seketika di semua komputer yang terhubung."
       }
     },
     "faq": {
@@ -401,29 +403,31 @@
       "q1": "Bisakah saya mengubah paket saya kapan saja?",
       "a1": "Ya — tingkatkan atau batalkan langganan Anda kapan saja dari dasbor Anda. Perubahan berlaku segera.",
       "q2": "Apakah ada komitmen minimum?",
-      "a2": "Tidak. Semua paket adalah bulanan tanpa ikatan. Penagihan tahunan menghemat 20% dan termasuk bulan pertama gratis selama periode peluncuran.",
+      "a2": "Tidak. Semua paket bulanan tanpa ikatan. Penagihan tahunan menghemat 20% dibandingkan bulanan. Anda dapat membatalkan kapan saja dari dasbor Anda.",
       "q3": "Apakah paket Gratis benar-benar gratis?",
-      "a3": "Ya — tidak perlu kartu kredit, tidak ada batas waktu. Paket Gratis memungkinkan Anda menjelajahi PISUM dengan 10 template, 50 laporan per bulan, dan ekspor PDF. Tingkatkan kapan pun Anda siap.",
+      "a3": "Ya — tanpa kartu kredit, tanpa batas waktu. Paket Gratis memungkinkan Anda menjelajahi PISUM dengan 10 templat, 50 laporan per bulan, dan ekspor PDF. Tingkatkan kapan pun Anda siap.",
       "q4": "Bagaimana cara kerja Dikte AI?",
-      "a4": "Dikte AI mengubah suara Anda menjadi teks laporan radiologi terstruktur secara real-time. Ini berjalan melalui API yang aman — audio tidak pernah disimpan. Kuota bulanan Anda direset pada tanggal 1 setiap bulan.",
+      "a4": "Dikte AI mengubah suara Anda menjadi teks laporan radiologi terstruktur secara real-time. Ia berjalan melalui API yang aman — audio tidak pernah disimpan. Kuota bulanan Anda diatur ulang pada tanggal 1 setiap bulan.",
       "q5": "Apakah pembayaran aman?",
       "a5": "Semua pembayaran diproses oleh Lemon Squeezy, platform pembayaran yang sesuai dengan PCI. PISUM tidak pernah menyimpan detail perbankan Anda.",
       "q6": "Di mana data saya disimpan? Apakah PISUM sesuai dengan GDPR?",
-      "a6": "Laporan pasien Anda disimpan secara lokal di mesin Anda — PISUM tidak pernah mengunggah data klinis ke cloud. Data akun (nama, email, status langganan) dihosting di Supabase dengan server UE. PISUM sepenuhnya sesuai dengan GDPR.",
+      "a6": "Laporan pasien Anda disimpan secara lokal di mesin Anda — PISUM tidak pernah mengunggah data klinis ke cloud. Data akun (nama, email, status langganan) dihosting di Supabase dengan server UE. PISUM sepenuhnya sesuai GDPR.",
       "q7": "Apakah PISUM memerlukan koneksi internet?",
-      "a7": "Ya. PISUM memerlukan koneksi internet aktif untuk Dikte AI, Penyempurnaan AI, dan manajemen langganan. Laporan pasien dan template Anda disimpan secara lokal di mesin Anda, tetapi fitur AI terhubung dengan aman ke API cloud kami.",
+      "a7": "Ya. PISUM memerlukan koneksi internet aktif untuk Dikte AI, Penyempurna AI, dan manajemen langganan. Laporan pasien dan templat Anda disimpan secara lokal di mesin Anda, tetapi fitur AI terhubung dengan aman ke API cloud kami.",
       "q8": "Apakah ada uji coba gratis untuk paket berbayar?",
-      "a8": "Paket Gratis adalah tingkatan gratis permanen — tanpa batas waktu, tanpa kartu kredit. Starter, Pro, dan Expert semuanya menyertakan uji coba gratis 14 hari sehingga Anda dapat merasakan rangkaian fitur lengkap tanpa risiko sebelum ditagih. Semua paket berbayar didukung oleh jaminan uang kembali 30 hari."
+      "a8": "Paket Gratis adalah tingkatan gratis permanen — tanpa batas waktu, tanpa kartu kredit. Starter, Pro, dan Expert semuanya menyertakan uji coba gratis 14 hari sehingga Anda dapat merasakan seluruh rangkaian fitur tanpa risiko sebelum dikenakan biaya. Semua paket berbayar didukung oleh garansi uang kembali 30 hari."
     },
     "footer": {
       "questions": "Pertanyaan?",
       "createAccount": "Buat akun",
-      "mySubscription": "Langganan saya",
-      "support": "Dukungan"
+      "mySubscription": "Langganan Saya",
+      "support": "Dukungan",
+      "terms": "Syarat Layanan",
+      "privacy": "Kebijakan Privasi"
     },
     "table": {
-      "cat_templates": "Template &amp; Konten",
-      "feat_templates": "Template",
+      "cat_templates": "Templat &amp; Konten",
+      "feat_templates": "Templat",
       "feat_languages": "Bahasa yang tersedia",
       "feat_pdf": "Ekspor PDF",
       "feat_word": "Ekspor Word",
@@ -431,7 +435,7 @@
       "feat_reports": "Laporan / bulan",
       "cat_ai": "Fitur AI",
       "feat_dictation": "Dikte AI",
-      "feat_enhancer": "Penyempurnaan AI",
+      "feat_enhancer": "Penyempurna AI",
       "feat_translation": "Terjemahan Laporan",
       "cat_workflow": "Alur Kerja &amp; Klinik",
       "feat_worklist": "Daftar Kerja",
@@ -440,13 +444,13 @@
       "feat_users": "Pengguna",
       "cat_support": "Dukungan",
       "feat_support": "Tingkat dukungan",
-      "lan_expert": "1 situs · maks 3 workstation",
-      "lan_clinic": "Multi-lokasi · workstation tanpa batas"
+      "lan_expert": "1 situs · maks 3 stasiun kerja",
+      "lan_clinic": "Multi-lokasi · stasiun kerja tanpa batas"
     },
     "piw_name": "PISUM AI",
     "piw_status": "Online — selalu siap membantu",
     "piw_close": "✕",
-    "piw_msg": "Hai! Saya <strong>PISUM AI</strong> 👋<br/>Tanyakan apa pun tentang fitur, harga, pengaturan, atau template. Saya akan memberikan jawaban yang jujur.",
+    "piw_msg": "Hai! Saya <strong>PISUM AI</strong> 👋<br/>Tanyakan apa pun tentang fitur, harga, pengaturan, atau templat. Saya akan memberi Anda jawaban langsung.",
     "piw_chip1": "Paket apa saja yang ada?",
     "piw_chip2": "Uji coba gratis?",
     "piw_chip3": "Cara instal?",

@@ -235,123 +235,125 @@
     }
   },
   "pricing": {
-    "pageTitle": "PISUM — Cennik dla Profesjonalistów Medycznych",
+    "pageTitle": "PISUM — Cennik dla profesjonalistów medycznych",
     "nav": {
       "signIn": "Zaloguj się",
       "mySubscription": "Moja subskrypcja"
     },
     "hero": {
-      "eyebrow": "Oprogramowanie Radiologiczne · Napędzane przez SI · Zgodne z RODO",
+      "eyebrow": "Oprogramowanie radiologiczne · Zasilane przez AI · Zgodne z RODO",
       "title": "Profesjonalne narzędzia,<br/><span>stworzone dla radiologów</span>",
-      "subtitle": "Od niezależnego radiologa po wielostanowiskową klinikę — PISUM dostosowuje się do Twojej praktyki dzięki ustrukturyzowanym szablonom, dyktowaniu AI i lokalnej kontroli danych.",
-      "ctaPrimary": "Zacznij za darmo — bez karty",
+      "subtitle": "Od niezależnego radiologa po wielosalowy gabinet — PISUM dostosowuje się do Twojej praktyki dzięki ustrukturyzowanym szablonom, dyktowaniu AI i lokalnej kontroli danych.",
+      "ctaPrimary": "Rozpocznij za darmo — bez karty",
       "ctaSecondary": "Porównaj plany"
     },
     "trust": {
       "gdpr": "Zgodne z RODO",
-      "local": "Dane pozostają lokalnie — brak przesyłania do chmury",
+      "local": "Raporty pacjentów pozostają na Twoim komputerze — nigdy nie są przesyłane",
       "builtFor": "Stworzone dla radiologów",
-      "clinics": "Używane w klinikach w całej Europie",
+      "clinics": "Zaprojektowane dla radiologów w całej Europie",
       "fast": "Raporty gotowe w mniej niż 60 sekund"
     },
     "billing": {
       "monthly": "Miesięcznie",
       "annual": "Rocznie",
       "save20": "−20%",
-      "guarantee": "Brak przesyłania danych pacjentów do chmury  ·  Zgodne z RODO  ·  Priorytet lokalny"
+      "guarantee": "Brak przesyłania danych pacjentów do chmury  ·  Zgodne z RODO  ·  Lokalnie przede wszystkim"
     },
     "plans": {
       "free": {
         "tag": "Darmowy",
-        "name": "Pisum Free",
+        "name": "PISUM Free",
         "subtitle": "Odkryj PISUM",
         "period": "/ miesiąc",
-        "microcopy": "Nie jest potrzebna karta kredytowa",
+        "microcopy": "Karta kredytowa nie jest wymagana",
         "cta": "Rozpocznij",
         "f1": "10 szablonów",
         "f2": "2 języki",
         "f3": "Eksport PDF",
         "f4": "Eksport Word",
-        "f5": "Dyktowanie AI (30 min/miesiąc)",
-        "f6": "Wzmacniacz AI (10 użyć/miesiąc)",
-        "f7": "Ograniczona lista zadań",
+        "f5": "Dyktowanie AI (30 min ≈ 10–20 badań/miesiąc)",
+        "f6": "AI Enhancer (10 poprawek/miesiąc)",
+        "f7": "Ograniczona lista badań",
         "f8": "50 raportów / miesiąc"
       },
       "starter": {
         "tag": "Starter",
-        "name": "Pisum Starter",
-        "subtitle": "Radiolog indywidualny",
+        "name": "PISUM Starter",
+        "subtitle": "Twój pierwszy krok do szybszych raportów",
         "period": "/ miesiąc",
-        "microcopy": "Rozliczanie miesięczne",
-        "trial": "14-dniowy darmowy okres próbny · Nie jest wymagana karta",
+        "microcopy": "Rozliczane miesięcznie",
+        "roi": "Oszczędność 30 min/dzień od pierwszego dnia",
+        "trial": "14-dniowy darmowy okres próbny · Karta nie jest wymagana",
         "cta": "Wypróbuj Starter za darmo — 14 dni",
         "f1": "20 szablonów",
         "f2": "23 języki",
         "f3": "Eksport PDF + Word",
         "f4": "Eksport HTML",
-        "f5": "Dyktowanie AI (500 min/miesiąc)",
-        "f6": "Wzmacniacz AI (50/miesiąc)",
-        "f7": "Podstawowa lista zadań",
-        "f8": "Nielimitowane raporty"
+        "f5": "Dyktowanie AI (500 min ≈ 150–300 badań/miesiąc)",
+        "f6": "AI Enhancer (50 poprawek/miesiąc)",
+        "f7": "Podstawowa lista badań",
+        "f8": "Nieograniczona liczba raportów"
       },
       "pro": {
-        "ribbon": "Najczęściej wybierany",
+        "ribbon": "Najpopularniejszy",
         "tag": "Pro ⭐",
-        "name": "Pisum Pro",
-        "subtitle": "Zaawansowany praktyk, wszystko w jednym",
+        "name": "PISUM Pro",
+        "subtitle": "Kompletny przepływ pracy dla codziennej praktyki",
         "period": "/ miesiąc",
-        "microcopy": "Rozliczanie miesięczne",
-        "trial": "14-dniowy darmowy okres próbny · Nie jest wymagana karta",
+        "microcopy": "Rozliczane miesięcznie",
+        "roi": "Zwraca się w mniej niż 3 dni robocze",
+        "trial": "14-dniowy darmowy okres próbny · Karta nie jest wymagana",
         "cta": "Wypróbuj Pro za darmo — 14 dni",
-        "f1": "112+ szablonów",
+        "f1": "Ponad 112 szablonów",
         "f2": "23 języki",
         "f3": "Eksport PDF + Word + HTML",
-        "f4": "Dyktowanie AI (2000 min/miesiąc)",
-        "f5": "Wzmacniacz AI (200/miesiąc)",
+        "f4": "Dyktowanie AI (2 000 min ≈ 600–1 200 badań/miesiąc)",
+        "f5": "AI Enhancer (200 poprawek/miesiąc)",
         "f6": "Tłumaczenie raportów (100/miesiąc)",
-        "f7": "Pełna lista zadań",
+        "f7": "Pełna lista badań",
         "f8": "Podstawowe statystyki",
         "f9": "Priorytetowe wsparcie"
       },
       "expert": {
-        "ribbon": "Najlepszy stosunek jakości do ceny",
+        "ribbon": "Najlepsza wartość",
         "tag": "Expert 🔥",
-        "name": "Pisum Expert",
-        "subtitle": "Bez ograniczeń, pełna moc",
+        "name": "PISUM Expert",
+        "subtitle": "Wiele stacji roboczych · Nieograniczone AI",
         "period": "/ miesiąc",
-        "microcopy": "Rozliczanie miesięczne",
-        "trial": "14-dniowy darmowy okres próbny · Nie jest wymagana karta",
+        "microcopy": "Rozliczane miesięcznie",
+        "trial": "14-dniowy darmowy okres próbny · Karta nie jest wymagana",
         "cta": "Wypróbuj Expert za darmo — 14 dni",
-        "f1": "112+ niestandardowych szablonów",
+        "f1": "Ponad 112 niestandardowych szablonów",
         "f2": "23 języki",
         "f3": "Eksport PDF + Word + HTML",
-        "f4": "Dyktowanie AI (Nielimitowane)",
-        "f5": "Wzmacniacz AI (Nielimitowane)",
-        "f6": "Tłumaczenie raportów (Nielimitowane)",
-        "f7": "Zaawansowana lista zadań",
+        "f4": "Dyktowanie AI (Nieograniczone)",
+        "f5": "AI Enhancer (Nieograniczone)",
+        "f6": "Tłumaczenie raportów (Nieograniczone)",
+        "f7": "Zaawansowana lista badań",
         "f8": "Pełne statystyki",
         "f9": "Synchronizacja LAN (1 lokalizacja · 3 komputery)"
       },
       "clinic": {
-        "ribbon": "Dla klinik",
+        "ribbon": "Dla gabinetów",
         "tag": "Clinic 🏥",
-        "name": "Pisum Clinic",
-        "subtitle": "Wielostanowiskowe · Zarządzanie zespołem",
+        "name": "PISUM Clinic",
+        "subtitle": "Wiele lokalizacji · Zarządzanie zespołem",
         "period": "/ miesiąc",
-        "microcopy": "5 użytkowników w cenie · +69 € za dodatkowego użytkownika",
-        "cta": "Skontaktuj się z nami",
-        "extraUsers": "Potrzebujesz więcej niż 5 użytkowników? Dodaj dodatkowe miejsca z panelu administratora po subskrypcji.",
+        "microcopy": "5 użytkowników w cenie · +69 €/dodatkowy użytkownik",
+        "cta": "Rozpocznij",
+        "extraUsers": "Potrzebujesz więcej niż 5 użytkowników? Dodaj dodatkowe stanowiska z panelu po subskrypcji.",
         "usersCount": "5 użytkowników",
         "f1": "Niestandardowe szablony",
-        "f2": "5 użytkowników w cenie (+69 € za dodatkowego)",
+        "f2": "5 użytkowników w cenie (+69 €/dodatkowy)",
         "f3": "23 języki",
         "f4": "Eksport PDF + Word + HTML",
-        "f5": "Dyktowanie AI (Nielimitowane)",
-        "f6": "Wzmacniacz AI (Nielimitowane)",
-        "f7": "Tłumaczenie raportów (Nielimitowane)",
-        "f8": "Wielostanowiskowa lista zadań",
-        "f9": "Zaawansowane statystyki + onboarding",
-        "f10": "Synchronizacja LAN (wielostanowiskowa · nielimitowana)"
+        "f5": "Dyktowanie AI (Nieograniczone)",
+        "f6": "AI Enhancer (Nieograniczone)",
+        "f7": "Tłumaczenie raportów (Nieograniczone)",
+        "f8": "Lista badań w wielu lokalizacjach",
+        "f9": "Zaawansowane statystyki + wdrożenie",
+        "f10": "Synchronizacja LAN (wiele lokalizacji · nieograniczone)"
       }
     },
     "guarantee": "<span style=\"color:var(--app-success);font-weight:700\">✓</span> 30-dniowa gwarancja zwrotu pieniędzy na wszystkie płatne plany  · \n    <span style=\"color:var(--app-success);font-weight:700\">✓</span> Anuluj w dowolnym momencie, bez zobowiązań",
@@ -359,20 +361,20 @@
       "eyebrow": "Dlaczego profesjonaliści wybierają PISUM",
       "heading": "Narzędzie, które szanuje Twój przepływ pracy",
       "card1": {
-        "title": "Prywatność z priorytetem lokalnym",
-        "desc": "Raporty pacjentów pozostają na Twojej maszynie. Żadne dane kliniczne nigdy nie opuszczają Twojego komputera — brak przesyłania do chmury, pełna zgodność z RODO."
+        "title": "Prywatność przede wszystkim lokalnie",
+        "desc": "Raporty pacjentów pozostają na Twoim komputerze. Żadne dane kliniczne nigdy nie opuszczają Twojego komputera — brak przesyłania do chmury, pełna zgodność z RODO."
       },
       "card2": {
-        "title": "112+ szablonów radiologicznych",
+        "title": "Ponad 112 szablonów radiologicznych",
         "desc": "Ustrukturyzowane raporty dla każdej modalności — MRI, CT, echografia i inne. W 23 językach, gotowe do natychmiastowego użycia."
       },
       "card3": {
-        "title": "Dyktowanie i Wzmacniacz AI",
+        "title": "Dyktowanie AI iamp; AI Enhancer",
         "desc": "Dyktuj raporty bez użycia rąk i poprawiaj sformułowania za pomocą AI — zaprojektowane specjalnie dla terminologii i frazeologii radiologicznej."
       },
       "card4": {
         "title": "Synchronizacja sieci LAN",
-        "desc": "Udostępniaj tę samą listę zadań na wszystkich stanowiskach roboczych w swojej klinice — bez chmury, natychmiastowa synchronizacja przez sieć lokalną."
+        "desc": "Udostępniaj tę samą listę badań na wszystkich stacjach roboczych w Twoim gabinecie — bez chmury, natychmiastowa synchronizacja przez Twoją sieć lokalną."
       }
     },
     "compare": {
@@ -381,48 +383,50 @@
     },
     "lansync": {
       "title": "Jak działa synchronizacja sieci LAN",
-      "subtitle": "Udostępniaj dane pacjentów między stanowiskami roboczymi w sieci lokalnej — bez chmury, bez opóźnień, bez ryzyka RODO.",
+      "subtitle": "Udostępniaj dane pacjentów między stacjami roboczymi w swojej sieci lokalnej — bez chmury, bez opóźnień, bez ryzyka RODO.",
       "step1": {
-        "title": "1. Skonfiguruj folder udostępniony",
-        "desc": "Wskaż PISUM na udostępniony folder sieciowy (NAS, udział SMB lub dysk sieciowy). Wszystkie stanowiska robocze w tej samej sieci mają dostęp do tej samej bazy danych."
+        "title": "1. Skonfiguruj współdzielony folder",
+        "desc": "Wskaż PISUM na współdzielony folder sieciowy (NAS, udział SMB lub dysk sieciowy). Wszystkie stacje robocze w tej samej sieci mają dostęp do tej samej bazy danych."
       },
       "step2": {
         "title": "2. Jedno wspólne hasło",
-        "desc": "Baza danych jest szyfrowana AES-256. Ustaw jedno hasło na pierwszym stanowisku roboczym — wszystkie inne komputery wprowadzają to samo hasło, aby się połączyć."
+        "desc": "Baza danych jest szyfrowana AES-256. Ustaw jedno hasło na pierwszej stacji roboczej — wszystkie inne komputery wprowadzają to samo hasło, aby się połączyć."
       },
       "step3": {
         "title": "3. Natychmiastowa synchronizacja między komputerami",
-        "desc": "Każde stanowisko robocze odczytuje i zapisuje bezpośrednio w udostępnionej bazie danych. Zmiany pojawiają się natychmiast na wszystkich podłączonych komputerach."
+        "desc": "Każda stacja robocza odczytuje i zapisuje bezpośrednio do współdzielonej bazy danych. Zmiany pojawiają się natychmiast na wszystkich połączonych komputerach."
       }
     },
     "faq": {
       "title": "Najczęściej zadawane pytania",
       "intro": "Wszystko, co musisz wiedzieć przed subskrypcją.",
       "q1": "Czy mogę zmienić plan w dowolnym momencie?",
-      "a1": "Tak — możesz w dowolnym momencie uaktualnić lub anulować subskrypcję z poziomu panelu administratora. Zmiany wchodzą w życie natychmiast.",
+      "a1": "Tak — możesz uaktualnić lub anulować subskrypcję w dowolnym momencie z panelu. Zmiany wchodzą w życie natychmiast.",
       "q2": "Czy jest minimalny okres zobowiązania?",
-      "a2": "Nie. Wszystkie plany są miesięczne, bez okresu zobowiązania. Rozliczanie roczne oszczędza 20% i obejmuje darmowy pierwszy miesiąc podczas okresu promocyjnego.",
+      "a2": "Nie. Wszystkie plany są miesięczne, bez zobowiązań. Płatność roczna pozwala zaoszczędzić 20% w porównaniu do płatności miesięcznej. Możesz anulować w dowolnym momencie z panelu.",
       "q3": "Czy plan darmowy jest naprawdę darmowy?",
-      "a3": "Tak — bez karty kredytowej, bez limitu czasowego. Plan darmowy pozwala na eksplorację PISUM z 10 szablonami, 50 raportami miesięcznie i eksportem PDF. Uaktualnij, gdy tylko będziesz gotowy.",
-      "q4": "Jak działa Dyktowanie AI?",
-      "a4": "Dyktowanie AI konwertuje Twój głos w tekst raportu radiologicznego w czasie rzeczywistym. Działa za pośrednictwem bezpiecznego API — audio nigdy nie jest przechowywane. Twój miesięczny limit odnawia się 1. dnia każdego miesiąca.",
+      "a3": "Tak — bez karty kredytowej, bez limitu czasowego. Plan darmowy pozwala na zapoznanie się z PISUM z 10 szablonami, 50 raportami miesięcznie i eksportem PDF. Zaktualizuj, gdy będziesz gotowy.",
+      "q4": "Jak działa dyktowanie AI?",
+      "a4": "Dyktowanie AI konwertuje Twój głos na ustrukturyzowany tekst raportu radiologicznego w czasie rzeczywistym. Działa przez bezpieczne API — dźwięk nigdy nie jest przechowywany. Twój miesięczny limit odnawia się pierwszego dnia każdego miesiąca.",
       "q5": "Czy płatność jest bezpieczna?",
-      "a5": "Wszystkie płatności są przetwarzane przez Lemon Squeezy, platformę płatności zgodną z PCI. PISUM nigdy nie przechowuje danych bankowych.",
-      "q6": "Gdzie przechowywane są moje dane? Czy PISUM jest zgodne z RODO?",
-      "a6": "Raporty pacjentów są przechowywane lokalnie na Twoim komputerze — PISUM nigdy nie przesyła danych klinicznych do chmury. Dane konta (nazwa, e-mail, status subskrypcji) są hostowane na Supabase z serwerami w UE. PISUM jest w pełni zgodne z RODO.",
-      "q7": "Czy PISUM wymaga połączenia z Internetem?",
-      "a7": "Tak. PISUM wymaga aktywnego połączenia z Internetem do Dyktowania AI, Wzmacniacza AI i zarządzania subskrypcją. Twoje raporty pacjentów i szablony są przechowywane lokalnie na Twoim komputerze, ale funkcje AI łączą się bezpiecznie z naszym API w chmurze.",
-      "q8": "Czy istnieje darmowy okres próbny dla płatnych planów?",
-      "a8": "Plan darmowy jest stałą warstwą bezpłatną — bez limitu czasowego, bez karty kredytowej. Starter, Pro i Expert zawierają 14-dniowy darmowy okres próbny, dzięki czemu możesz przetestować pełny zestaw funkcji bez ryzyka przed naliczeniem opłat. Wszystkie płatne plany są objęte 30-dniową gwarancją zwrotu pieniędzy."
+      "a5": "Wszystkie płatności są przetwarzane przez Lemon Squeezy, platformę płatniczą zgodną z PCI. PISUM nigdy nie przechowuje Twoich danych bankowych.",
+      "q6": "Gdzie są przechowywane moje dane? Czy PISUM jest zgodne z RODO?",
+      "a6": "Twoje raporty pacjentów są przechowywane lokalnie na Twoim komputerze — PISUM nigdy nie przesyła danych klinicznych do chmury. Dane konta (imię, e-mail, status subskrypcji) są hostowane na Supabase z serwerami w UE. PISUM jest w pełni zgodne z RODO.",
+      "q7": "Czy PISUM wymaga połączenia z internetem?",
+      "a7": "Tak. PISUM wymaga aktywnego połączenia z internetem do dyktowania AI, AI Enhancer i zarządzania subskrypcją. Twoje raporty pacjentów i szablony są przechowywane lokalnie na Twoim komputerze, ale funkcje AI łączą się bezpiecznie z naszym API chmurowym.",
+      "q8": "Czy jest darmowy okres próbny dla płatnych planów?",
+      "a8": "Plan darmowy jest stałym darmowym poziomem — bez limitu czasu, bez karty kredytowej. Starter, Pro i Expert zawierają 14-dniowy darmowy okres próbny, dzięki czemu możesz doświadczyć pełnego zestawu funkcji bez ryzyka, zanim zostaniesz obciążony. Wszystkie płatne plany objęte są 30-dniową gwarancją zwrotu pieniędzy."
     },
     "footer": {
       "questions": "Pytania?",
       "createAccount": "Utwórz konto",
       "mySubscription": "Moja subskrypcja",
-      "support": "Wsparcie"
+      "support": "Wsparcie",
+      "terms": "Warunki korzystania z usługi",
+      "privacy": "Polityka prywatności"
     },
     "table": {
-      "cat_templates": "Szablony i treść",
+      "cat_templates": "Szablony iamp; Zawartość",
       "feat_templates": "Szablony",
       "feat_languages": "Dostępne języki",
       "feat_pdf": "Eksport PDF",
@@ -431,22 +435,22 @@
       "feat_reports": "Raporty / miesiąc",
       "cat_ai": "Funkcje AI",
       "feat_dictation": "Dyktowanie AI",
-      "feat_enhancer": "Wzmacniacz AI",
+      "feat_enhancer": "AI Enhancer",
       "feat_translation": "Tłumaczenie raportów",
-      "cat_workflow": "Przepływ pracy i klinika",
-      "feat_worklist": "Lista zadań",
+      "cat_workflow": "Przepływ pracy iamp; Gabinet",
+      "feat_worklist": "Lista badań",
       "feat_stats": "Statystyki",
       "feat_lan": "Synchronizacja sieci LAN",
       "feat_users": "Użytkownicy",
       "cat_support": "Wsparcie",
       "feat_support": "Poziom wsparcia",
-      "lan_expert": "1 lokalizacja · maks. 3 stanowiska robocze",
-      "lan_clinic": "Wielostanowiskowa · nielimitowane stanowiska robocze"
+      "lan_expert": "1 lokalizacja · maks. 3 stacje robocze",
+      "lan_clinic": "Wiele lokalizacji · nieograniczone stacje robocze"
     },
     "piw_name": "PISUM AI",
-    "piw_status": "Online — zawsze do pomocy",
+    "piw_status": "Online — zawsze gotowy do pomocy",
     "piw_close": "✕",
-    "piw_msg": "Cześć! Jestem <strong>PISUM AI</strong> 👋<br/>Zapytaj mnie o wszystko dotyczące funkcji, cen, konfiguracji lub szablonów. Odpowiem Ci szczerze.",
+    "piw_msg": "Cześć! Jestem <strong>PISUM AI</strong> 👋<br/>Zapytaj mnie o wszystko dotyczące funkcji, cen, konfiguracji lub szablonów. Odpowiem Ci prosto.",
     "piw_chip1": "Jakie są plany?",
     "piw_chip2": "Darmowy okres próbny?",
     "piw_chip3": "Jak zainstalować?",

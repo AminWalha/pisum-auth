@@ -241,24 +241,24 @@
       "mySubscription": "Mijn abonnement"
     },
     "hero": {
-      "eyebrow": "Radiologie Software · AI-gestuurd · GDPR-conform",
+      "eyebrow": "Radiologie Software · AI-gestuurd · AVG-conform",
       "title": "Professionele tools,<br/><span>gebouwd voor radiologen</span>",
-      "subtitle": "Van onafhankelijke radioloog tot multi-site kliniek — PISUM past zich aan uw praktijk aan met gestructureerde templates, AI-dictaten en lokale gegevenscontrole.",
+      "subtitle": "Van onafhankelijke radioloog tot meerlocatiekliniek — PISUM past zich aan uw praktijk aan met gestructureerde sjablonen, AI-dictatie en lokale gegevensbeheer.",
       "ctaPrimary": "Gratis starten — geen kaart nodig",
-      "ctaSecondary": "Plannen vergelijken"
+      "ctaSecondary": "Vergelijk plannen"
     },
     "trust": {
-      "gdpr": "GDPR-conform",
-      "local": "Gegevens blijven lokaal — geen cloud-upload",
+      "gdpr": "AVG-conform",
+      "local": "Patiëntverslagen blijven op uw computer staan — nooit geüpload",
       "builtFor": "Gebouwd voor radiologen",
-      "clinics": "Gebruikt in klinieken in heel Europa",
-      "fast": "Rapporten voltooid in minder dan 60 seconden"
+      "clinics": "Ontworpen voor radiologen in heel Europa",
+      "fast": "Verslagen voltooid in minder dan 60 seconden"
     },
     "billing": {
       "monthly": "Maandelijks",
       "annual": "Jaarlijks",
       "save20": "−20%",
-      "guarantee": "Geen cloud-upload van patiëntgegevens  ·  GDPR-conform  ·  Lokaal-eerst"
+      "guarantee": "Geen cloudupload van patiëntgegevens  ·  AVG-conform  ·  Lokaal-eerst"
     },
     "plans": {
       "free": {
@@ -267,111 +267,113 @@
         "subtitle": "Ontdek PISUM",
         "period": "/ maand",
         "microcopy": "Geen creditcard nodig",
-        "cta": "Beginnen",
-        "f1": "10 templates",
+        "cta": "Begin vandaag",
+        "f1": "10 sjablonen",
         "f2": "2 talen",
-        "f3": "PDF Export",
-        "f4": "Word Export",
-        "f5": "AI-dictaten (30 min/maand)",
-        "f6": "AI Verbeteraar (10 keer/maand)",
-        "f7": "Beperkte werklijst",
-        "f8": "50 rapporten / maand"
+        "f3": "PDF-export",
+        "f4": "Word-export",
+        "f5": "AI-dictatie (30 min ≈ 10–20 CRs/maand)",
+        "f6": "AI-verbeteraar (10 correcties/maand)",
+        "f7": "Beperkt werklijst",
+        "f8": "50 verslagen / maand"
       },
       "starter": {
         "tag": "Starter",
         "name": "Pisum Starter",
-        "subtitle": "Solo radioloog",
+        "subtitle": "Uw eerste stap naar snellere verslagen",
         "period": "/ maand",
         "microcopy": "Maandelijks gefactureerd",
+        "roi": "Bespaar dagelijks 30 minuten vanaf dag één",
         "trial": "14 dagen gratis proefperiode · Geen kaart vereist",
         "cta": "Probeer Starter gratis — 14 dagen",
-        "f1": "20 templates",
+        "f1": "20 sjablonen",
         "f2": "23 talen",
-        "f3": "PDF + Word Export",
-        "f4": "HTML Export",
-        "f5": "AI-dictaten (500 min/maand)",
-        "f6": "AI Verbeteraar (50/maand)",
-        "f7": "Basis Werklijst",
-        "f8": "Onbeperkt aantal rapporten"
+        "f3": "PDF- + Word-export",
+        "f4": "HTML-export",
+        "f5": "AI-dictatie (500 min ≈ 150–300 CRs/maand)",
+        "f6": "AI-verbeteraar (50 correcties/maand)",
+        "f7": "Basis werklijst",
+        "f8": "Onbeperkte verslagen"
       },
       "pro": {
-        "ribbon": "Meest Populair",
+        "ribbon": "Meest populair",
         "tag": "Pro ⭐",
         "name": "Pisum Pro",
-        "subtitle": "Gevorderde praktijk, alles-in-één",
+        "subtitle": "Volledige workflow voor de dagelijkse praktijk",
         "period": "/ maand",
         "microcopy": "Maandelijks gefactureerd",
+        "roi": "Verdien zichzelf terug in < 3 werkdagen",
         "trial": "14 dagen gratis proefperiode · Geen kaart vereist",
         "cta": "Probeer Pro gratis — 14 dagen",
-        "f1": "112+ templates",
+        "f1": "112+ sjablonen",
         "f2": "23 talen",
-        "f3": "PDF + Word + HTML Export",
-        "f4": "AI-dictaten (2.000 min/maand)",
-        "f5": "AI Verbeteraar (200/maand)",
-        "f6": "Rapportvertaling (100/maand)",
-        "f7": "Volledige Werklijst",
-        "f8": "Basis Statistieken",
-        "f9": "Prioriteit ondersteuning"
+        "f3": "PDF- + Word- + HTML-export",
+        "f4": "AI-dictatie (2.000 min ≈ 600–1.200 CRs/maand)",
+        "f5": "AI-verbeteraar (200 correcties/maand)",
+        "f6": "Verslavertaling (100/maand)",
+        "f7": "Volledige werklijst",
+        "f8": "Basis statistieken",
+        "f9": "Prioriteitssupport"
       },
       "expert": {
-        "ribbon": "Beste Waarde",
+        "ribbon": "Beste waarde",
         "tag": "Expert 🔥",
         "name": "Pisum Expert",
-        "subtitle": "Geen limieten, volledige kracht",
+        "subtitle": "Multi-werkstation · Onbeperkte AI",
         "period": "/ maand",
         "microcopy": "Maandelijks gefactureerd",
         "trial": "14 dagen gratis proefperiode · Geen kaart vereist",
         "cta": "Probeer Expert gratis — 14 dagen",
-        "f1": "112+ aangepaste templates",
+        "f1": "112+ aangepaste sjablonen",
         "f2": "23 talen",
-        "f3": "PDF + Word + HTML Export",
-        "f4": "AI-dictaten (Onbeperkt)",
-        "f5": "AI Verbeteraar (Onbeperkt)",
-        "f6": "Rapportvertaling (Onbeperkt)",
-        "f7": "Geavanceerde Werklijst",
-        "f8": "Volledige Statistieken",
-        "f9": "LAN Sync (1 site · 3 pc's)"
+        "f3": "PDF- + Word- + HTML-export",
+        "f4": "AI-dictatie (Onbeperkt)",
+        "f5": "AI-verbeteraar (Onbeperkt)",
+        "f6": "Verslavertaling (Onbeperkt)",
+        "f7": "Geavanceerde werklijst",
+        "f8": "Volledige statistieken",
+        "f9": "LAN-sync (1 locatie · 3 pc's)"
       },
       "clinic": {
-        "ribbon": "Voor Klinieken",
+        "ribbon": "Voor klinieken",
         "tag": "Clinic 🏥",
         "name": "Pisum Clinic",
-        "subtitle": "Multi-site · Teambeheer",
+        "subtitle": "Meerlocatie · Teambeheer",
         "period": "/ maand",
         "microcopy": "5 gebruikers incl. · +€69/extra gebruiker",
-        "cta": "Neem contact op",
-        "extraUsers": "Meer dan 5 gebruikers nodig? Voeg extra plaatsen toe vanaf uw dashboard na het abonneren.",
+        "cta": "Begin vandaag",
+        "extraUsers": "Meer dan 5 gebruikers nodig? Voeg extra zitplaatsen toe vanuit uw dashboard na het abonneren.",
         "usersCount": "5 gebruikers",
-        "f1": "Aangepaste templates",
+        "f1": "Aangepaste sjablonen",
         "f2": "5 gebruikers incl. (+€69/extra)",
         "f3": "23 talen",
-        "f4": "PDF + Word + HTML Export",
-        "f5": "AI-dictaten (Onbeperkt)",
-        "f6": "AI Verbeteraar (Onbeperkt)",
-        "f7": "Rapportvertaling (Onbeperkt)",
-        "f8": "Multi-site Werklijst",
+        "f4": "PDF- + Word- + HTML-export",
+        "f5": "AI-dictatie (Onbeperkt)",
+        "f6": "AI-verbeteraar (Onbeperkt)",
+        "f7": "Verslavertaling (Onbeperkt)",
+        "f8": "Multi-site werklijst",
         "f9": "Geavanceerde statistieken + onboarding",
-        "f10": "LAN Sync (multi-site · onbeperkt)"
+        "f10": "LAN-sync (multi-site · onbeperkt)"
       }
     },
-    "guarantee": "<span style=\"color:var(--app-success);font-weight:700\">✓</span> 30 dagen geld-terug-garantie op alle betaalde plannen  · \n    <span style=\"color:var(--app-success);font-weight:700\">✓</span> Annuleer op elk moment, geen verplichtingen",
+    "guarantee": "<span style=\"color:var(--app-success);font-weight:700\">✓</span> 30 dagen geld-terug-garantie op alle betaalde plannen  · \n    <span style=\"color:var(--app-success);font-weight:700\">✓</span> Annuleer op elk moment, geen verplichting",
     "value": {
       "eyebrow": "Waarom professionals PISUM kiezen",
       "heading": "Een tool die uw workflow respecteert",
       "card1": {
         "title": "Lokaal-eerst privacy",
-        "desc": "Patiëntrapporten blijven op uw machine. Geen klinische gegevens verlaten ooit uw computer — geen cloud-upload, volledige GDPR-naleving."
+        "desc": "Patiëntverslagen blijven op uw computer staan. Geen klinische gegevens verlaten ooit uw computer — geen cloud-upload, volledige AVG-conformiteit."
       },
       "card2": {
-        "title": "112+ radiologie templates",
-        "desc": "Gestructureerde rapporten voor elke modaliteit — MRI, CT, echografie, en meer. In 23 talen, klaar voor direct gebruik."
+        "title": "112+ radiologiesjablonen",
+        "desc": "Gestructureerde verslagen voor elke modaliteit — MRI, CT, echografie, en meer. In 23 talen, klaar voor direct gebruik."
       },
       "card3": {
-        "title": "AI-dictaten &amp; Verbeteraar",
-        "desc": "Dictateer rapporten handsfree en verbeter de bewoordingen met AI — speciaal ontworpen voor radiologieterminologie en formuleringen."
+        "title": "AI-dictatie &amp; Verbeteraar",
+        "desc": "Dicteer verslagen handsfree en verbeter formuleringen met AI — specifiek ontworpen voor radiologieterminologie en zinsbouw."
       },
       "card4": {
-        "title": "LAN Netwerk Sync",
+        "title": "LAN-netwerksynchronisatie",
         "desc": "Deel dezelfde werklijst op alle werkstations in uw kliniek — geen cloud, directe synchronisatie via uw lokale netwerk."
       }
     },
@@ -380,15 +382,15 @@
       "subtitle": "Zie precies wat er op elk niveau is inbegrepen — kies wat bij uw praktijk past."
     },
     "lansync": {
-      "title": "Hoe LAN Netwerk Sync werkt",
-      "subtitle": "Deel patiëntgegevens tussen werkstations op uw lokale netwerk — geen cloud, geen latentie, geen GDPR-risico.",
+      "title": "Hoe LAN-netwerksynchronisatie werkt",
+      "subtitle": "Deel patiëntgegevens tussen werkstations op uw lokale netwerk — geen cloud, geen latentie, geen AVG-risico.",
       "step1": {
         "title": "1. Stel een gedeelde map in",
         "desc": "Wijs PISUM toe aan een gedeelde netwerkmap (NAS, SMB-share of gemapte schijf). Alle werkstations op hetzelfde netwerk hebben toegang tot dezelfde database."
       },
       "step2": {
         "title": "2. Eén gedeeld wachtwoord",
-        "desc": "De database is AES-256 versleuteld. Stel één wachtwoord in op het eerste werkstation — alle andere pc's voeren hetzelfde wachtwoord in om verbinding te maken."
+        "desc": "De database is AES-256-versleuteld. Stel één wachtwoord in op het eerste werkstation — alle andere pc's voeren hetzelfde wachtwoord in om verbinding te maken."
       },
       "step3": {
         "title": "3. Directe synchronisatie tussen pc's",
@@ -399,59 +401,61 @@
       "title": "Veelgestelde Vragen",
       "intro": "Alles wat u moet weten voordat u zich abonneert.",
       "q1": "Kan ik mijn abonnement op elk moment wijzigen?",
-      "a1": "Ja — upgrade of annuleer uw abonnement op elk moment via uw dashboard. Wijzigingen worden direct van kracht.",
+      "a1": "Ja — upgrade of annuleer uw abonnement op elk moment vanuit uw dashboard. Wijzigingen worden onmiddellijk van kracht.",
       "q2": "Is er een minimale verbintenis?",
-      "a2": "Nee. Alle abonnementen zijn maandelijks opzegbaar zonder verplichtingen. Jaarlijkse facturering bespaart 20% en omvat een gratis eerste maand tijdens de lanceringsperiode.",
-      "q3": "Is het Gratis abonnement echt gratis?",
-      "a3": "Ja — geen creditcard, geen tijdslimiet. Het Gratis abonnement laat u PISUM ontdekken met 10 templates, 50 rapporten per maand en PDF-export. Upgrade wanneer u er klaar voor bent.",
-      "q4": "Hoe werkt AI-dictaten?",
-      "a4": "AI-dictaten converteert uw stem in real-time naar gestructureerde radiologierapporttekst. Het draait via een beveiligde API — audio wordt nooit opgeslagen. Uw maandelijkse quotum wordt gereset op de 1e van elke maand.",
+      "a2": "Nee. Alle abonnementen zijn maandelijks opzegbaar zonder enige verplichting. Jaarlijkse facturering bespaart 20% ten opzichte van maandelijks. U kunt op elk moment opzeggen vanuit uw dashboard.",
+      "q3": "Is het gratis abonnement echt gratis?",
+      "a3": "Ja — geen creditcard, geen tijdslimiet. Het gratis abonnement laat u PISUM verkennen met 10 sjablonen, 50 verslagen per maand en PDF-export. Upgrade wanneer u er klaar voor bent.",
+      "q4": "Hoe werkt AI-dictatie?",
+      "a4": "AI-dictatie converteert uw stem in realtime naar gestructureerde radiologische rapporttekst. Het draait via een beveiligde API — audio wordt nooit opgeslagen. Uw maandelijkse quotum wordt gereset op de 1e van elke maand.",
       "q5": "Is betaling veilig?",
       "a5": "Alle betalingen worden verwerkt door Lemon Squeezy, een PCI-conform betalingsplatform. PISUM slaat nooit uw bankgegevens op.",
-      "q6": "Waar worden mijn gegevens opgeslagen? Is PISUM GDPR-conform?",
-      "a6": "Uw patiëntrapporten worden lokaal op uw machine opgeslagen — PISUM uploadt nooit klinische gegevens naar de cloud. Accountgegevens (naam, e-mail, abonnementsstatus) worden gehost op Supabase met EU-servers. PISUM is volledig GDPR-conform.",
+      "q6": "Waar worden mijn gegevens opgeslagen? Is PISUM AVG-conform?",
+      "a6": "Uw patiëntverslagen worden lokaal opgeslagen op uw machine — PISUM uploadt nooit klinische gegevens naar de cloud. Accountgegevens (naam, e-mail, abonnementsstatus) worden gehost op Supabase met EU-servers. PISUM is volledig AVG-conform.",
       "q7": "Vereist PISUM een internetverbinding?",
-      "a7": "Ja. PISUM vereist een actieve internetverbinding voor AI-dictaten, AI Verbeteraar en abonnementbeheer. Uw patiëntrapporten en templates worden lokaal op uw machine opgeslagen, maar AI-functies maken veilig verbinding met onze cloud API.",
-      "q8": "Is er een gratis proefversie voor betaalde abonnementen?",
-      "a8": "Het Gratis abonnement is een permanent gratis niveau — geen tijdslimiet, geen creditcard. Starter, Pro en Expert bevatten allemaal een 14-daagse gratis proefperiode, zodat u de volledige functionaliteit risicovrij kunt ervaren voordat u wordt gefactureerd. Alle betaalde abonnementen worden ondersteund door een 30-dagen geld-terug-garantie."
+      "a7": "Ja. PISUM vereist een actieve internetverbinding voor AI-dictatie, AI-verbeteraar en abonnementsbeheer. Uw patiëntverslagen en sjablonen worden lokaal opgeslagen op uw machine, maar AI-functies maken veilig verbinding met onze cloud API.",
+      "q8": "Is er een gratis proefperiode voor betaalde abonnementen?",
+      "a8": "Het gratis abonnement is een permanent gratis niveau — geen tijdslimiet, geen creditcard. Starter, Pro en Expert bevatten allemaal een 14-daagse gratis proefperiode, zodat u de volledige set functies risicovrij kunt ervaren voordat u wordt gefactureerd. Alle betaalde abonnementen worden ondersteund door een 30-dagen geld-terug-garantie."
     },
     "footer": {
       "questions": "Vragen?",
       "createAccount": "Account aanmaken",
       "mySubscription": "Mijn abonnement",
-      "support": "Ondersteuning"
+      "support": "Ondersteuning",
+      "terms": "Gebruiksvoorwaarden",
+      "privacy": "Privacybeleid"
     },
     "table": {
-      "cat_templates": "Templates &amp; Inhoud",
-      "feat_templates": "Templates",
+      "cat_templates": "Sjablonen &amp; Content",
+      "feat_templates": "Sjablonen",
       "feat_languages": "Beschikbare talen",
-      "feat_pdf": "PDF Export",
-      "feat_word": "Word Export",
-      "feat_html": "HTML Export",
-      "feat_reports": "Rapporten / maand",
-      "cat_ai": "AI Functies",
-      "feat_dictation": "AI-dictaten",
-      "feat_enhancer": "AI Verbeteraar",
-      "feat_translation": "Rapportvertaling",
+      "feat_pdf": "PDF-export",
+      "feat_word": "Word-export",
+      "feat_html": "HTML-export",
+      "feat_reports": "Verslagen / maand",
+      "cat_ai": "AI-functies",
+      "feat_dictation": "AI-dictatie",
+      "feat_enhancer": "AI-verbeteraar",
+      "feat_translation": "Verslavertaling",
       "cat_workflow": "Workflow &amp; Kliniek",
       "feat_worklist": "Werklijst",
       "feat_stats": "Statistieken",
-      "feat_lan": "LAN Netwerk Sync",
+      "feat_lan": "LAN-netwerksynchronisatie",
       "feat_users": "Gebruikers",
       "cat_support": "Ondersteuning",
       "feat_support": "Ondersteuningsniveau",
-      "lan_expert": "1 site · max 3 werkstations",
+      "lan_expert": "1 locatie · max 3 werkstations",
       "lan_clinic": "Multi-site · onbeperkt werkstations"
     },
     "piw_name": "PISUM AI",
     "piw_status": "Online — altijd hier om te helpen",
     "piw_close": "✕",
-    "piw_msg": "Hallo! Ik ben <strong>PISUM AI</strong> 👋<br/>Vraag me alles over functies, prijzen, installatie of templates. Ik geef u een direct antwoord.",
-    "piw_chip1": "Welke abonnementen zijn er?",
+    "piw_msg": "Hoi! Ik ben <strong>PISUM AI</strong> 👋<br/>Vraag me alles over functies, prijzen, installatie of sjablonen. Ik zal je een direct antwoord geven.",
+    "piw_chip1": "Welke abonnementen bestaan er?",
     "piw_chip2": "Gratis proefperiode?",
-    "piw_chip3": "Hoe installeren?",
-    "piw_chip4": "AI-dictaten?",
-    "piw_chip5": "GDPR-conform?",
+    "piw_chip3": "Hoe te installeren?",
+    "piw_chip4": "AI-dictatie?",
+    "piw_chip5": "AVG-conform?",
     "piw_input": "Stel een vraag…"
   }
 }

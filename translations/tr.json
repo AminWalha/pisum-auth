@@ -235,62 +235,63 @@
     }
   },
   "pricing": {
-    "pageTitle": "PISUM — Tıbbi Profesyoneller İçin Fiyatlandırma",
+    "pageTitle": "PISUM — Sağlık Profesyonelleri İçin Fiyatlandırma",
     "nav": {
-      "signIn": "Giriş yap",
+      "signIn": "Giriş Yap",
       "mySubscription": "Aboneliğim"
     },
     "hero": {
       "eyebrow": "Radyoloji Yazılımı · Yapay Zeka Destekli · GDPR Uyumlu",
       "title": "Profesyonel araçlar,<br/><span>radyologlar için tasarlandı</span>",
-      "subtitle": "Bağımsız radyologdan çok lokasyonlu kliniğe — PISUM, yapılandırılmış şablonlar, yapay zeka dikte ve yerel veri kontrolü ile uygulamanıza uyum sağlar.",
+      "subtitle": "Bağımsız radyologdan çok lokasyonlu kliniğe kadar — PISUM, yapılandırılmış şablonlar, yapay zeka dikte ve yerel veri kontrolü ile pratiğinize uyum sağlar.",
       "ctaPrimary": "Ücretsiz başlayın — kart gerekmez",
-      "ctaSecondary": "Planları karşılaştırın"
+      "ctaSecondary": "Planları Karşılaştır"
     },
     "trust": {
       "gdpr": "GDPR Uyumlu",
-      "local": "Veriler yerel kalır — bulut yüklemesi yok",
+      "local": "Hasta raporları makinenizde kalır — asla yüklenmez",
       "builtFor": "Radyologlar için tasarlandı",
-      "clinics": "Avrupa'daki kliniklerde kullanılıyor",
+      "clinics": "Avrupa'daki radyologlar için tasarlandı",
       "fast": "Raporlar 60 saniyenin altında tamamlanır"
     },
     "billing": {
       "monthly": "Aylık",
       "annual": "Yıllık",
       "save20": "−20%",
-      "guarantee": "Hasta verilerinin bulut yüklemesi yok  ·  GDPR uyumlu  ·  Yerel öncelikli"
+      "guarantee": "Hasta verisi buluta yüklenmez  ·  GDPR uyumlu  ·  Yerel öncelikli"
     },
     "plans": {
       "free": {
         "tag": "Ücretsiz",
         "name": "Pisum Ücretsiz",
-        "subtitle": "PISUM'u keşfedin",
+        "subtitle": "PISUM'u Keşfedin",
         "period": "/ ay",
         "microcopy": "Kredi kartı gerekmez",
-        "cta": "Başlayın",
+        "cta": "Başla",
         "f1": "10 şablon",
         "f2": "2 dil",
         "f3": "PDF Dışa Aktarma",
         "f4": "Word Dışa Aktarma",
-        "f5": "Yapay Zeka Dikte (30 dk/ay)",
-        "f6": "Yapay Zeka Geliştirici (10 kullanım/ay)",
+        "f5": "Yapay Zeka Dikte (30 dk ≈ ayda 10–20 Rapor)",
+        "f6": "Yapay Zeka Geliştirici (ayda 10 düzeltme)",
         "f7": "Sınırlı İş Listesi",
         "f8": "50 rapor / ay"
       },
       "starter": {
         "tag": "Başlangıç",
         "name": "Pisum Başlangıç",
-        "subtitle": "Tek radyolog",
+        "subtitle": "Daha hızlı raporlara ilk adımınız",
         "period": "/ ay",
         "microcopy": "Aylık faturalandırılır",
+        "roi": "İlk günden itibaren günde 30 dk tasarruf edin",
         "trial": "14 günlük ücretsiz deneme · Kart gerekmez",
-        "cta": "Starter'ı ücretsiz deneyin — 14 gün",
+        "cta": "Ücretsiz Başlangıç Dene — 14 gün",
         "f1": "20 şablon",
         "f2": "23 dil",
         "f3": "PDF + Word Dışa Aktarma",
         "f4": "HTML Dışa Aktarma",
-        "f5": "Yapay Zeka Dikte (500 dk/ay)",
-        "f6": "Yapay Zeka Geliştirici (50/ay)",
+        "f5": "Yapay Zeka Dikte (500 dk ≈ ayda 150–300 Rapor)",
+        "f6": "Yapay Zeka Geliştirici (ayda 50 düzeltme)",
         "f7": "Temel İş Listesi",
         "f8": "Sınırsız rapor"
       },
@@ -298,17 +299,18 @@
         "ribbon": "En Popüler",
         "tag": "Pro ⭐",
         "name": "Pisum Pro",
-        "subtitle": "Gelişmiş uygulayıcı, hepsi bir arada",
+        "subtitle": "Günlük pratik için tam iş akışı",
         "period": "/ ay",
         "microcopy": "Aylık faturalandırılır",
+        "roi": "< 3 iş gününde kendini amorti eder",
         "trial": "14 günlük ücretsiz deneme · Kart gerekmez",
-        "cta": "Pro'yu ücretsiz deneyin — 14 gün",
+        "cta": "Ücretsiz Pro Dene — 14 gün",
         "f1": "112+ şablon",
         "f2": "23 dil",
         "f3": "PDF + Word + HTML Dışa Aktarma",
-        "f4": "Yapay Zeka Dikte (2.000 dk/ay)",
-        "f5": "Yapay Zeka Geliştirici (200/ay)",
-        "f6": "Rapor Çevirisi (100/ay)",
+        "f4": "Yapay Zeka Dikte (2.000 dk ≈ ayda 600–1.200 Rapor)",
+        "f5": "Yapay Zeka Geliştirici (ayda 200 düzeltme)",
+        "f6": "Rapor Çevirisi (ayda 100)",
         "f7": "Tam İş Listesi",
         "f8": "Temel İstatistikler",
         "f9": "Öncelikli destek"
@@ -317,11 +319,11 @@
         "ribbon": "En İyi Değer",
         "tag": "Uzman 🔥",
         "name": "Pisum Uzman",
-        "subtitle": "Sınırsız, tam güç",
+        "subtitle": "Çoklu iş istasyonu · Sınırsız Yapay Zeka",
         "period": "/ ay",
         "microcopy": "Aylık faturalandırılır",
         "trial": "14 günlük ücretsiz deneme · Kart gerekmez",
-        "cta": "Uzman'ı ücretsiz deneyin — 14 gün",
+        "cta": "Ücretsiz Uzman Dene — 14 gün",
         "f1": "112+ özel şablon",
         "f2": "23 dil",
         "f3": "PDF + Word + HTML Dışa Aktarma",
@@ -336,90 +338,92 @@
         "ribbon": "Klinikler İçin",
         "tag": "Klinik 🏥",
         "name": "Pisum Klinik",
-        "subtitle": "Çok lokasyonlu · Ekip yönetimi",
+        "subtitle": "Çoklu lokasyon · Ekip yönetimi",
         "period": "/ ay",
-        "microcopy": "5 kullanıcı dahil · +69€/ek kullanıcı",
-        "cta": "Bize ulaşın",
-        "extraUsers": "5'ten fazla kullanıcıya mı ihtiyacınız var? Abone olduktan sonra kontrol panelinizden ek koltuk ekleyebilirsiniz.",
+        "microcopy": "5 kullanıcı dahil · +69€ ek kullanıcı",
+        "cta": "Başla",
+        "extraUsers": "5 kullanıcıdan fazlasına mı ihtiyacınız var? Abonelik sonrası kontrol panelinizden ek koltuk ekleyin.",
         "usersCount": "5 kullanıcı",
         "f1": "Özel şablonlar",
-        "f2": "5 kullanıcı dahil (+69€/ek)",
+        "f2": "5 kullanıcı dahil (+69€ ek)",
         "f3": "23 dil",
         "f4": "PDF + Word + HTML Dışa Aktarma",
         "f5": "Yapay Zeka Dikte (Sınırsız)",
         "f6": "Yapay Zeka Geliştirici (Sınırsız)",
         "f7": "Rapor Çevirisi (Sınırsız)",
-        "f8": "Çok Lokasyonlu İş Listesi",
-        "f9": "Gelişmiş istatistikler + başlangıç",
+        "f8": "Çok lokasyonlu İş Listesi",
+        "f9": "Gelişmiş istatistikler + kurulum desteği",
         "f10": "LAN Senkronizasyonu (çok lokasyonlu · sınırsız)"
       }
     },
-    "guarantee": "<span style=\"color:var(--app-success);font-weight:700\">✓</span> Tüm ücretli planlarda 30 günlük para iade garantisi  · \n    <span style=\"color:var(--app-success);font-weight:700\">✓</span> İstediğiniz zaman iptal edin, taahhüt yok",
+    "guarantee": "<span style=\"color:var(--app-success);font-weight:700\">✓</span> Tüm ücretli planlarda 30 gün para iade garantisi  · \n    <span style=\"color:var(--app-success);font-weight:700\">✓</span> İstediğiniz zaman iptal edin, sözleşme yok",
     "value": {
       "eyebrow": "Profesyoneller neden PISUM'u seçiyor",
       "heading": "İş akışınıza saygı duyan bir araç",
       "card1": {
         "title": "Yerel öncelikli gizlilik",
-        "desc": "Hasta raporları makinenizde kalır. Hiçbir klinik veri bilgisayarınızdan ayrılmaz — bulut yüklemesi yok, tam GDPR uyumluluğu."
+        "desc": "Hasta raporları makinenizde kalır. Hiçbir klinik veri bilgisayarınızdan çıkmaz — buluta yükleme yok, tam GDPR uyumluluğu."
       },
       "card2": {
         "title": "112+ radyoloji şablonu",
-        "desc": "Her modalite için yapılandırılmış raporlar — MRI, CT, ekografi ve daha fazlası. 23 dilde, hemen kullanıma hazır."
+        "desc": "Her modalite için yapılandırılmış raporlar — MR, BT, ekografi ve daha fazlası. 23 dilde, hemen kullanıma hazır."
       },
       "card3": {
-        "title": "Yapay Zeka Dikte ve Geliştirici",
-        "desc": "Raporları eller serbest dikte edin ve yapay zeka ile kelime seçimini iyileştirin — özellikle radyoloji terminolojisi ve ifade biçimi için tasarlanmıştır."
+        "title": "Yapay Zeka Dikte &amp; Geliştirici",
+        "desc": "Raporları eller serbest dikte edin ve yapay zeka ile metni geliştirin — özel olarak radyoloji terminolojisi ve ifadeleri için tasarlandı."
       },
       "card4": {
         "title": "LAN Ağ Senkronizasyonu",
-        "desc": "Kliniğinizdeki tüm iş istasyonlarında aynı iş listesini paylaşın — bulut yok, yerel ağınız üzerinden anında senkronizasyon."
+        "desc": "Kliniğinizdeki tüm iş istasyonları arasında aynı iş listesini paylaşın — bulut yok, yerel ağınız üzerinden anında senkronizasyon."
       }
     },
     "compare": {
       "title": "Detaylı karşılaştırma",
-      "subtitle": "Her seviyede tam olarak nelerin dahil olduğunu görün — uygulamanıza uygun olanı seçin."
+      "subtitle": "Her seviyede tam olarak nelerin dahil olduğunu görün — pratiğinize uyanı seçin."
     },
     "lansync": {
       "title": "LAN Ağ Senkronizasyonu nasıl çalışır",
-      "subtitle": "Hasta verilerini yerel ağınızdaki iş istasyonları arasında paylaşın — bulut yok, gecikme yok, GDPR riski yok.",
+      "subtitle": "Yerel ağınızdaki iş istasyonları arasında hasta verilerini paylaşın — bulut yok, gecikme yok, GDPR riski yok.",
       "step1": {
         "title": "1. Paylaşılan bir klasör ayarlayın",
-        "desc": "PISUM'u paylaşılan bir ağ klasörüne (NAS, SMB paylaşımı veya haritalanmış sürücü) işaretleyin. Aynı ağdaki tüm iş istasyonları aynı veritabanına erişir."
+        "desc": "PISUM'u paylaşılan bir ağ klasörüne (NAS, SMB paylaşımı veya eşlenmiş sürücü) işaretleyin. Aynı ağdaki tüm iş istasyonları aynı veritabanına erişir."
       },
       "step2": {
-        "title": "2. Tek ortak şifre",
+        "title": "2. Tek paylaşılan şifre",
         "desc": "Veritabanı AES-256 ile şifrelenmiştir. İlk iş istasyonunda tek bir şifre belirleyin — diğer tüm PC'ler bağlanmak için aynı şifreyi girer."
       },
       "step3": {
         "title": "3. PC'ler arasında anında senkronizasyon",
-        "desc": "Her iş istasyonu paylaşılan veritabanına doğrudan okur ve yazar. Değişiklikler tüm bağlı bilgisayarlarda anında görünür."
+        "desc": "Her iş istasyonu paylaşılan veritabanını doğrudan okur ve yazar. Değişiklikler, bağlı tüm bilgisayarlarda anında görünür."
       }
     },
     "faq": {
       "title": "Sıkça Sorulan Sorular",
-      "intro": "Abone olmadan önce bilmeniz gereken her şey.",
+      "intro": "Abonelikten önce bilmeniz gereken her şey.",
       "q1": "Planımı istediğim zaman değiştirebilir miyim?",
-      "a1": "Evet — aboneliğinizi kontrol panelinizden istediğiniz zaman yükseltebilir veya iptal edebilirsiniz. Değişiklikler anında geçerli olur.",
-      "q2": "Minimum taahhüt var mı?",
-      "a2": "Hayır. Tüm planlar aylıktır ve taahhüt yoktur. Yıllık faturalandırma %20 tasarruf sağlar ve lansman dönemi boyunca ücretsiz ilk ayı içerir.",
+      "a1": "Evet — kontrol panelinizden aboneliğinizi istediğiniz zaman yükseltebilir veya iptal edebilirsiniz. Değişiklikler hemen geçerli olur.",
+      "q2": "Minimum taahhüt süresi var mı?",
+      "a2": "Hayır. Tüm planlar sözleşmesiz aylık bazdadır. Yıllık faturalandırma aylık olana göre %20 tasarruf sağlar. Kontrol panelinizden istediğiniz zaman iptal edebilirsiniz.",
       "q3": "Ücretsiz plan gerçekten ücretsiz mi?",
-      "a3": "Evet — kredi kartı yok, zaman sınırı yok. Ücretsiz plan, 10 şablon, ayda 50 rapor ve PDF dışa aktarma ile PISUM'u keşfetmenizi sağlar. Hazır olduğunuzda yükseltme yapabilirsiniz.",
+      "a3": "Evet — kredi kartı yok, zaman sınırı yok. Ücretsiz plan, 10 şablon, ayda 50 rapor ve PDF dışa aktarma ile PISUM'u keşfetmenizi sağlar. Hazır olduğunuzda yükseltebilirsiniz.",
       "q4": "Yapay Zeka Dikte nasıl çalışır?",
       "a4": "Yapay Zeka Dikte, sesinizi gerçek zamanlı olarak yapılandırılmış radyoloji rapor metnine dönüştürür. Güvenli bir API aracılığıyla çalışır — ses asla saklanmaz. Aylık kotanız her ayın 1'inde sıfırlanır.",
       "q5": "Ödeme güvenli mi?",
       "a5": "Tüm ödemeler PCI uyumlu bir ödeme platformu olan Lemon Squeezy tarafından işlenir. PISUM, bankacılık bilgilerinizi asla saklamaz.",
       "q6": "Verilerim nerede saklanıyor? PISUM GDPR uyumlu mu?",
-      "a6": "Hasta raporlarınız yerel makinenizde saklanır — PISUM, klinik verilerini asla buluta yüklemez. Hesap verileri (ad, e-posta, abonelik durumu) AB sunucularıyla Supabase üzerinde barındırılır. PISUM tamamen GDPR uyumludur.",
-      "q7": "PISUM internet bağlantısı gerektirir mi?",
-      "a7": "Evet. PISUM, Yapay Zeka Dikte, Yapay Zeka Geliştirici ve abonelik yönetimi için aktif bir internet bağlantısı gerektirir. Hasta raporlarınız ve şablonlarınız yerel makinenizde saklanır, ancak yapay zeka özellikleri bulut API'mize güvenli bir şekilde bağlanır.",
-      "q8": "Ücretli planlar için ücretsiz deneme var mı?",
-      "a8": "Ücretsiz plan kalıcı bir ücretsiz katmandır — zaman sınırı yok, kredi kartı yok. Başlangıç, Pro ve Uzman planları, ücretlendirilmeden önce tam özellik setini risksiz bir şekilde deneyimleyebilmeniz için 14 günlük ücretsiz deneme içerir. Tüm ücretli planlar 30 günlük para iade garantisi ile desteklenir."
+      "a6": "Hasta raporlarınız yerel olarak makinenizde saklanır — PISUM hiçbir zaman klinik verileri buluta yüklemez. Hesap verileri (ad, e-posta, abonelik durumu) AB sunucularıyla Supabase üzerinde barındırılır. PISUM tamamen GDPR uyumludur.",
+      "q7": "PISUM internet bağlantısı gerektiriyor mu?",
+      "a7": "Evet. PISUM, Yapay Zeka Dikte, Yapay Zeka Geliştirici ve abonelik yönetimi için aktif bir internet bağlantısı gerektirir. Hasta raporlarınız ve şablonlarınız makinenizde yerel olarak saklanır, ancak yapay zeka özellikleri bulut API'mize güvenli bir şekilde bağlanır.",
+      "q8": "Ücretli planlar için ücretsiz deneme sürümü var mı?",
+      "a8": "Ücretsiz plan, kalıcı bir ücretsiz katmandır — zaman sınırı yok, kredi kartı yok. Başlangıç, Pro ve Uzman planları, ücretlendirilmeden önce tüm özellik setini risksiz bir şekilde deneyimleyebilmeniz için 14 günlük ücretsiz deneme içerir. Tüm ücretli planlar, 30 günlük para iade garantisi ile desteklenir."
     },
     "footer": {
       "questions": "Sorularınız mı var?",
-      "createAccount": "Hesap oluştur",
+      "createAccount": "Hesap Oluştur",
       "mySubscription": "Aboneliğim",
-      "support": "Destek"
+      "support": "Destek",
+      "terms": "Kullanım Koşulları",
+      "privacy": "Gizlilik Politikası"
     },
     "table": {
       "cat_templates": "Şablonlar &amp; İçerik",
@@ -440,15 +444,15 @@
       "feat_users": "Kullanıcılar",
       "cat_support": "Destek",
       "feat_support": "Destek seviyesi",
-      "lan_expert": "1 lokasyon · en fazla 3 iş istasyonu",
+      "lan_expert": "1 lokasyon · maks. 3 iş istasyonu",
       "lan_clinic": "Çok lokasyonlu · sınırsız iş istasyonu"
     },
     "piw_name": "PISUM AI",
-    "piw_status": "Çevrimiçi — her zaman yardıma hazır",
+    "piw_status": "Çevrimiçi — size yardım etmek için her zaman buradayız",
     "piw_close": "✕",
     "piw_msg": "Merhaba! Ben <strong>PISUM AI</strong> 👋<br/>Özellikler, fiyatlandırma, kurulum veya şablonlar hakkında bana her şeyi sorun. Size doğru bir cevap vereceğim.",
-    "piw_chip1": "Hangi planlar mevcut?",
-    "piw_chip2": "Ücretsiz deneme var mı?",
+    "piw_chip1": "Ne gibi planlar var?",
+    "piw_chip2": "Ücretsiz deneme mi?",
     "piw_chip3": "Nasıl kurulur?",
     "piw_chip4": "Yapay zeka dikte mi?",
     "piw_chip5": "GDPR uyumlu mu?",

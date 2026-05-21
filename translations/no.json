@@ -241,56 +241,57 @@
       "mySubscription": "Mitt abonnement"
     },
     "hero": {
-      "eyebrow": "Radioprogramvare · AI-drevet · GDPR-kompatibel",
+      "eyebrow": "Radiologisprogramvare · AI-drevet · GDPR-kompatibel",
       "title": "Profesjonelle verktøy,<br/><span>bygget for radiologer</span>",
-      "subtitle": "Fra uavhengig radiolog til klinikk med flere lokasjoner — PISUM tilpasser seg praksisen din med strukturerte maler, AI-diktering og lokal datakontroll.",
-      "ctaPrimary": "Start gratis — intet kort trengs",
+      "subtitle": "Fra selvstendig radiolog til klinikk med flere lokasjoner — PISUM tilpasser seg din praksis med strukturerte maler, AI-diktering og lokal datakontroll.",
+      "ctaPrimary": "Start gratis — ingen kort kreves",
       "ctaSecondary": "Sammenlign planer"
     },
     "trust": {
       "gdpr": "GDPR-kompatibel",
-      "local": "Data forblir lokalt — ingen skyopplasting",
+      "local": "Pasientrapporter forblir på din maskin — aldri opplastet",
       "builtFor": "Bygget for radiologer",
-      "clinics": "Brukes i klinikker over hele Europa",
-      "fast": "Rapporter ferdigstilt på under 60 sekunder"
+      "clinics": "Designet for radiologer i hele Europa",
+      "fast": "Rapporter fullført på under 60 sekunder"
     },
     "billing": {
       "monthly": "Månedlig",
       "annual": "Årlig",
       "save20": "−20%",
-      "guarantee": "Ingen skyopplasting av pasientdata  ·  GDPR-kompatibel  ·  Lokalt først"
+      "guarantee": "Ingen skylagring av pasientdata  ·  GDPR-kompatibel  ·  Lokal først"
     },
     "plans": {
       "free": {
         "tag": "Gratis",
         "name": "Pisum Gratis",
-        "subtitle": "Oppdag PISUM",
+        "subtitle": "Utforsk PISUM",
         "period": "/ måned",
-        "microcopy": "Intet kredittkort trengs",
+        "microcopy": "Ingen kredittkort kreves",
         "cta": "Kom i gang",
         "f1": "10 maler",
         "f2": "2 språk",
         "f3": "PDF-eksport",
         "f4": "Word-eksport",
-        "f5": "AI-diktering (30 min/mnd)",
-        "f6": "AI-forbedrer (10 bruksområder/mnd)",
+        "f5": "AI-diktering (30 min ≈ 10–20 CR/mnd)",
+        "f6": "AI-forbedrer (10 korreksjoner/mnd)",
         "f7": "Begrenset arbeidsliste",
         "f8": "50 rapporter / måned"
       },
       "starter": {
         "tag": "Starter",
         "name": "Pisum Starter",
-        "subtitle": "Enkel radiolog",
+        "subtitle": "Ditt første steg mot raskere rapporter",
         "period": "/ måned",
         "microcopy": "Fakturert månedlig",
-        "trial": "14-dagers gratis prøveperiode · Intet kort kreves",
+        "roi": "Spar 30 min/dag fra dag én",
+        "trial": "14 dagers gratis prøveperiode · Ingen kort kreves",
         "cta": "Prøv Starter gratis — 14 dager",
         "f1": "20 maler",
         "f2": "23 språk",
         "f3": "PDF + Word-eksport",
         "f4": "HTML-eksport",
-        "f5": "AI-diktering (500 min/mnd)",
-        "f6": "AI-forbedrer (50/mnd)",
+        "f5": "AI-diktering (500 min ≈ 150–300 CR/mnd)",
+        "f6": "AI-forbedrer (50 korreksjoner/mnd)",
         "f7": "Grunnleggende arbeidsliste",
         "f8": "Ubegrenset antall rapporter"
       },
@@ -298,16 +299,17 @@
         "ribbon": "Mest populær",
         "tag": "Pro ⭐",
         "name": "Pisum Pro",
-        "subtitle": "Avansert praksis, alt-i-ett",
+        "subtitle": "Komplett arbeidsflyt for daglig praksis",
         "period": "/ måned",
         "microcopy": "Fakturert månedlig",
-        "trial": "14-dagers gratis prøveperiode · Intet kort kreves",
+        "roi": "Lønner seg på under 3 arbeidsdager",
+        "trial": "14 dagers gratis prøveperiode · Ingen kort kreves",
         "cta": "Prøv Pro gratis — 14 dager",
         "f1": "112+ maler",
         "f2": "23 språk",
         "f3": "PDF + Word + HTML-eksport",
-        "f4": "AI-diktering (2 000 min/mnd)",
-        "f5": "AI-forbedrer (200/mnd)",
+        "f4": "AI-diktering (2 000 min ≈ 600–1 200 CR/mnd)",
+        "f5": "AI-forbedrer (200 korreksjoner/mnd)",
         "f6": "Rapportoversettelse (100/mnd)",
         "f7": "Full arbeidsliste",
         "f8": "Grunnleggende statistikk",
@@ -315,13 +317,13 @@
       },
       "expert": {
         "ribbon": "Beste verdi",
-        "tag": "Ekspert 🔥",
-        "name": "Pisum Ekspert",
-        "subtitle": "Ingen grenser, full kraft",
+        "tag": "Expert 🔥",
+        "name": "Pisum Expert",
+        "subtitle": "Flere arbeidsstasjoner · Ubegrenset AI",
         "period": "/ måned",
         "microcopy": "Fakturert månedlig",
-        "trial": "14-dagers gratis prøveperiode · Intet kort kreves",
-        "cta": "Prøv Ekspert gratis — 14 dager",
+        "trial": "14 dagers gratis prøveperiode · Ingen kort kreves",
+        "cta": "Prøv Expert gratis — 14 dager",
         "f1": "112+ egendefinerte maler",
         "f2": "23 språk",
         "f3": "PDF + Word + HTML-eksport",
@@ -334,12 +336,12 @@
       },
       "clinic": {
         "ribbon": "For klinikker",
-        "tag": "Klinikk 🏥",
-        "name": "Pisum Klinikk",
+        "tag": "Clinic 🏥",
+        "name": "Pisum Clinic",
         "subtitle": "Flere lokasjoner · Teamadministrasjon",
         "period": "/ måned",
         "microcopy": "5 brukere inkludert · +€69/ekstra bruker",
-        "cta": "Kontakt oss",
+        "cta": "Kom i gang",
         "extraUsers": "Trenger du mer enn 5 brukere? Legg til ekstra plasser fra dashbordet ditt etter abonnement.",
         "usersCount": "5 brukere",
         "f1": "Egendefinerte maler",
@@ -350,29 +352,29 @@
         "f6": "AI-forbedrer (Ubegrenset)",
         "f7": "Rapportoversettelse (Ubegrenset)",
         "f8": "Arbeidsliste for flere lokasjoner",
-        "f9": "Avansert statistikk + opplæring",
+        "f9": "Avansert statistikk + onboarding",
         "f10": "LAN-synkronisering (flere lokasjoner · ubegrenset)"
       }
     },
-    "guarantee": "<span style=\"color:var(--app-success);font-weight:700\">✓</span> 30-dagers pengene tilbake-garanti på alle betalte planer  · \n    <span style=\"color:var(--app-success);font-weight:700\">✓</span> Kanseller når som helst, ingen binding",
+    "guarantee": "<span style=\"color:var(--app-success);font-weight:700\">✓</span> 30-dagers pengene-tilbake-garanti på alle betalte planer  · \n    <span style=\"color:var(--app-success);font-weight:700\">✓</span> Avbryt når som helst, ingen bindingstid",
     "value": {
-      "eyebrow": "Hvorfor fagpersoner velger PISUM",
+      "eyebrow": "Hvorfor fagfolk velger PISUM",
       "heading": "Et verktøy som respekterer arbeidsflyten din",
       "card1": {
-        "title": "Lokal personvern først",
-        "desc": "Pasientrapporter forblir på maskinen din. Ingen kliniske data forlater datamaskinen din — ingen skyopplasting, full GDPR-overholdelse."
+        "title": "Lokal-først personvern",
+        "desc": "Pasientrapporter forblir på din maskin. Ingen kliniske data forlater noensinne datamaskinen din — ingen skylagring, full GDPR-samsvar."
       },
       "card2": {
         "title": "112+ radiologimaler",
-        "desc": "Strukturerte rapporter for enhver modalitet — MR, CT, ultralyd, og mer. På 23 språk, klare for umiddelbar bruk."
+        "desc": "Strukturerte rapporter for enhver modalitet — MR, CT, ultralyd og mer. På 23 språk, klar for umiddelbar bruk."
       },
       "card3": {
-        "title": "AI-diktering &amp; Forbedrer",
-        "desc": "Dikter rapporter håndfritt og forbedre ordlyden med AI — designet spesifikt for radiologiterminologi og formulering."
+        "title": "AI-diktering og forbedrer",
+        "desc": "Dikter rapporter håndfritt og forbedre formuleringer med AI — spesifikt designet for radiologiterminologi og frasering."
       },
       "card4": {
         "title": "LAN nettverkssynkronisering",
-        "desc": "Del den samme arbeidslisten på tvers av alle arbeidsstasjoner i klinikken din — ingen sky, øyeblikkelig synkronisering via ditt lokale nettverk."
+        "desc": "Del den samme arbeidslisten på tvers av alle arbeidsstasjoner i klinikken din — ingen sky, umiddelbar synkronisering via ditt lokale nettverk."
       }
     },
     "compare": {
@@ -380,18 +382,18 @@
       "subtitle": "Se nøyaktig hva som er inkludert på hvert nivå — velg det som passer din praksis."
     },
     "lansync": {
-      "title": "Hvordan LAN nettverkssynkronisering fungerer",
+      "title": "Slik fungerer LAN nettverkssynkronisering",
       "subtitle": "Del pasientdata på tvers av arbeidsstasjoner på ditt lokale nettverk — ingen sky, ingen forsinkelse, ingen GDPR-risiko.",
       "step1": {
-        "title": "1. Konfigurer en delt mappe",
-        "desc": "Pek PISUM til en delt nettverksmappe (NAS, SMB-deling eller tilordnet stasjon). Alle arbeidsstasjoner på samme nettverk får tilgang til samme database."
+        "title": "1. Sett opp en delt mappe",
+        "desc": "Pek PISUM til en delt nettverksmappe (NAS, SMB-deling eller tilordnet stasjon). Alle arbeidsstasjoner på samme nettverk får tilgang til den samme databasen."
       },
       "step2": {
         "title": "2. Ett delt passord",
-        "desc": "Databasen er AES-256-kryptert. Sett ett passord på den første arbeidsstasjonen — alle andre PC-er skriver inn samme passord for å koble til."
+        "desc": "Databasen er AES-256-kryptert. Angi ett passord på den første arbeidsstasjonen — alle andre PC-er skriver inn samme passord for å koble til."
       },
       "step3": {
-        "title": "3. Øyeblikkelig synkronisering på tvers av PC-er",
+        "title": "3. Umiddelbar synkronisering på tvers av PC-er",
         "desc": "Hver arbeidsstasjon leser og skriver direkte til den delte databasen. Endringer vises umiddelbart på alle tilkoblede datamaskiner."
       }
     },
@@ -399,30 +401,32 @@
       "title": "Ofte stilte spørsmål",
       "intro": "Alt du trenger å vite før du abonnerer.",
       "q1": "Kan jeg endre planen min når som helst?",
-      "a1": "Ja — oppgrader eller kanseller abonnementet ditt når som helst fra dashbordet ditt. Endringer trer i kraft umiddelbart.",
+      "a1": "Ja — oppgrader eller avbryt abonnementet ditt når som helst fra dashbordet ditt. Endringer trer i kraft umiddelbart.",
       "q2": "Er det en minimumsforpliktelse?",
-      "a2": "Nei. Alle planer er måned-til-måned uten binding. Årlig fakturering sparer 20% og inkluderer en gratis første måned under lanseringsperioden.",
+      "a2": "Nei. Alle planer er måned-til-måned uten bindingstid. Årlig fakturering sparer 20 % sammenlignet med månedlig. Du kan avbryte når som helst fra dashbordet ditt.",
       "q3": "Er gratisplanen virkelig gratis?",
-      "a3": "Ja — intet kredittkort, ingen tidsbegrensning. Gratisplanen lar deg utforske PISUM med 10 maler, 50 rapporter per måned og PDF-eksport. Oppgrader når du er klar.",
+      "a3": "Ja — ingen kredittkort, ingen tidsbegrensning. Gratisplanen lar deg utforske PISUM med 10 maler, 50 rapporter per måned og PDF-eksport. Oppgrader når du er klar.",
       "q4": "Hvordan fungerer AI-diktering?",
-      "a4": "AI-diktering konverterer stemmen din til strukturert radiologirapporttekst i sanntid. Den kjører via en sikker API — lyd lagres aldri. Din månedlige kvote nullstilles den 1. i hver måned.",
-      "q5": "Er betaling sikker?",
-      "a5": "Alle betalinger behandles av Lemon Squeezy, en PCI-kompatibel betalingsplattform. PISUM lagrer aldri bankdetaljene dine.",
+      "a4": "AI-diktering konverterer stemmen din til strukturert radiologirapporttekst i sanntid. Den kjører via en sikker API — lyd lagres aldri. Din månedlige kvote tilbakestilles den 1. i hver måned.",
+      "q5": "Er betalingen sikker?",
+      "a5": "Alle betalinger behandles av Lemon Squeezy, en PCI-kompatibel betalingsplattform. PISUM lagrer aldri dine bankdetaljer.",
       "q6": "Hvor lagres dataene mine? Er PISUM GDPR-kompatibel?",
-      "a6": "Dine pasientrapporter lagres lokalt på maskinen din — PISUM laster aldri opp kliniske data til skyen. Kontodata (navn, e-post, abonnementsstatus) er vert på Supabase med EU-servere. PISUM er fullt GDPR-kompatibel.",
+      "a6": "Dine pasientrapporter lagres lokalt på din maskin — PISUM laster aldri kliniske data til skyen. Kontodata (navn, e-post, abonnementsstatus) hostes på Supabase med EU-servere. PISUM er fullt GDPR-kompatibel.",
       "q7": "Krever PISUM internettilkobling?",
-      "a7": "Ja. PISUM krever en aktiv internettilkobling for AI-diktering, AI-forbedrer og abonnementsadministrasjon. Pasientrapportene og malene dine lagres lokalt på maskinen din, men AI-funksjoner kobles sikkert til vår sky-API.",
-      "q8": "Er det en gratis prøveperiode for betalte planer?",
-      "a8": "Gratisplanen er et permanent gratisnivå — ingen tidsbegrensning, intet kredittkort. Starter, Pro og Expert inkluderer alle en 14-dagers gratis prøveperiode slik at du kan oppleve hele funksjonssettet risikofritt før du blir belastet. Alle betalte planer støttes av en 30-dagers pengene tilbake-garanti."
+      "a7": "Ja. PISUM krever en aktiv internettilkobling for AI-diktering, AI-forbedrer og abonnementsadministrasjon. Dine pasientrapporter og maler lagres lokalt på din maskin, men AI-funksjoner kobler seg sikkert til vår sky-API.",
+      "q8": "Finnes det en gratis prøveperiode for betalte planer?",
+      "a8": "Gratisplanen er et permanent gratis nivå — ingen tidsbegrensning, ingen kredittkort. Starter, Pro og Expert inkluderer alle en 14-dagers gratis prøveperiode slik at du kan oppleve hele funksjonssettet uten risiko før du blir belastet. Alle betalte planer støttes av en 30-dagers pengene-tilbake-garanti."
     },
     "footer": {
       "questions": "Spørsmål?",
       "createAccount": "Opprett en konto",
       "mySubscription": "Mitt abonnement",
-      "support": "Support"
+      "support": "Support",
+      "terms": "Vilkår for bruk",
+      "privacy": "Personvernerklæring"
     },
     "table": {
-      "cat_templates": "Maler &amp; Innhold",
+      "cat_templates": "Maler og innhold",
       "feat_templates": "Maler",
       "feat_languages": "Tilgjengelige språk",
       "feat_pdf": "PDF-eksport",
@@ -433,7 +437,7 @@
       "feat_dictation": "AI-diktering",
       "feat_enhancer": "AI-forbedrer",
       "feat_translation": "Rapportoversettelse",
-      "cat_workflow": "Arbeidsflyt &amp; Klinikk",
+      "cat_workflow": "Arbeidsflyt og klinikk",
       "feat_worklist": "Arbeidsliste",
       "feat_stats": "Statistikk",
       "feat_lan": "LAN nettverkssynkronisering",
@@ -441,12 +445,12 @@
       "cat_support": "Support",
       "feat_support": "Supportnivå",
       "lan_expert": "1 lokasjon · maks 3 arbeidsstasjoner",
-      "lan_clinic": "Flere lokasjoner · ubegrenset arbeidsstasjoner"
+      "lan_clinic": "Flere lokasjoner · ubegrenset antall arbeidsstasjoner"
     },
     "piw_name": "PISUM AI",
     "piw_status": "Online — alltid her for å hjelpe",
     "piw_close": "✕",
-    "piw_msg": "Hei! Jeg er <strong>PISUM AI</strong> 👋<br/>Spør meg om hva som helst angående funksjoner, priser, oppsett eller maler. Jeg vil gi deg et direkte svar.",
+    "piw_msg": "Hei! Jeg er <strong>PISUM AI</strong> 👋<br/>Spør meg om alt om funksjoner, priser, oppsett eller maler. Jeg vil gi deg et direkte svar.",
     "piw_chip1": "Hvilke planer finnes?",
     "piw_chip2": "Gratis prøveperiode?",
     "piw_chip3": "Hvordan installere?",
