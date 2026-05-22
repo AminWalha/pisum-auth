@@ -972,6 +972,7 @@ async function init() {
     document.getElementById('nav-user').style.display = 'flex';
     document.getElementById('nav-login-btn').style.display    = 'none';
     document.getElementById('nav-dashboard-btn').style.display = '';
+    sb.from('subscriptions').update({ last_used_at: new Date().toISOString() }).eq('user_id', user.id).then(() => {});
   }
 }
 
