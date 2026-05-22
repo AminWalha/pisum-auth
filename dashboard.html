@@ -1138,6 +1138,8 @@ async function init() {
   if (!data.session) { window.location.href = 'https://auth.pisum.app/'; return; }
   session = data.session;
 
+  sb.from('subscriptions').update({ last_used_at: new Date().toISOString() }).eq('user_id', session.user.id).then(() => {});
+
   const user  = session.user;
   const name  = user.user_metadata?.full_name || user.user_metadata?.name || '';
   const email = user.email || '';
