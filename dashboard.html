@@ -1134,6 +1134,12 @@ function sbNav(el, sectionId) {
 
 // ── Init ──────────────────────────────────────────────────────────────────
 async function init() {
+  // getUser() validates the token server-side and triggers a refresh if expired.
+  // This prevents mobile browsers from using a stale access_token that would
+  // cause the Render backend to get 403 from Supabase /auth/v1/user.
+  const { data: userData, error: userError } = await sb.auth.getUser();
+  if (!userData?.user || userError) { window.location.href = 'https://auth.pisum.app/'; return; }
+  // Re-fetch session after getUser() to pick up any auto-refreshed token
   const { data } = await sb.auth.getSession();
   if (!data.session) { window.location.href = 'https://auth.pisum.app/'; return; }
   session = data.session;
@@ -1196,6 +1202,9 @@ async function pollUntilUpgraded() {
 
 async function loadAccess() {
   try {
+    // Always use the latest session token (may have been auto-refreshed)
+    const { data: fresh } = await sb.auth.getSession();
+    if (fresh?.session) session = fresh.session;
     const hdrs = { Authorization: `Bearer ${session.access_token}` };
     const [r1, r2] = await Promise.all([
       fetch(`${API_BASE}/check-access`,        { headers: hdrs }),
